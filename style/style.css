@@ -21,6 +21,7 @@ h2
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 3em;
 	font-weight: 400;
+	margin: 20px;
 }
 i
 {
@@ -34,18 +35,23 @@ section
 	margin: 20px 0;
 	overflow: hidden;
 }
+section div
+{
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
+	width: 25%;
+	overflow: hidden;
+	padding: 20px;
+}
 a
 {
-	overflow: auto;
+
 }
 img
 {
-	float: left;
-	padding: 20px;
-	display: block;
-	max-width: 25%;
+	max-width: 100%;
 	height: auto;
-	box-sizing: border-box;
 }
 .hidden
 {
