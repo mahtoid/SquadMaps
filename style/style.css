@@ -41,8 +41,9 @@ i
 section
 {
 	background-color: #222222;
-	margin: 20px 0;
+	margin: 20px auto;
 	overflow: hidden;
+	width: 90%;
 }
 section div
 {
@@ -65,4 +66,17 @@ img
 .material-icons.md-48
 {
 	font-size: 48px;
+}
+#version
+{
+	box-sizing: border-box;
+	color: white;
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+a
+{
+	color: white;
 }
