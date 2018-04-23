@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
-title: SQUADMAPS: All maps and rotations in Squad
-description: SquadMaps is a site to help Squad players and server admins find their favorite maps. All maps and gameplay modes.
-url: https://napster653.github.io/SquadMaps/
+title: "SQUADMAPS: All maps and rotations in Squad"
+description: "SquadMaps is a site to help Squad players and server admins find their favorite maps. All maps and gameplay modes."
+url: "https://napster653.github.io/SquadMaps/"
