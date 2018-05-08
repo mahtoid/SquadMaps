@@ -49,6 +49,7 @@ section div
 {
 	box-sizing: border-box;
 	display: inline-block;
+	position: relative;
 	float: left;
 	width: 25%;
 	overflow: hidden;
@@ -79,4 +80,22 @@ img
 a
 {
 	color: white;
+}
+section div .tooltiptext
+{
+	visibility: hidden;
+	width: 75%;
+	background-color: black;
+	color: #FFC200;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+}
+section div:hover .tooltiptext
+{
+	visibility: visible;
 }
