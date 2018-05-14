@@ -99,3 +99,8 @@ section div:hover .tooltiptext
 {
 	visibility: visible;
 }
+p
+{
+	font-family: "Roboto Condensed", sans-serif;
+	text-align: right;
+}
