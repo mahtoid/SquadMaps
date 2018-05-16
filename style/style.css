@@ -64,10 +64,6 @@ img
 {
 	display: none;
 }
-.material-icons.md-48
-{
-	font-size: 48px;
-}
 #version
 {
 	box-sizing: border-box;
@@ -76,6 +72,12 @@ img
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+#version img
+{
+	vertical-align: middle;
+	height: 16px;
+	width: auto;
 }
 a
 {
