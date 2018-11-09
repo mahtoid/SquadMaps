@@ -79,7 +79,11 @@ img
 	height: 16px;
 	width: auto;
 }
-a
+p a
+{
+	color: white;
+}
+section a
 {
 	color: rgb(200, 200, 200);
 	font-size: 0.5em;
