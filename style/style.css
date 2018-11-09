@@ -81,7 +81,9 @@ img
 }
 a
 {
-	color: white;
+	color: rgb(200, 200, 200);
+	font-size: 0.5em;
+	text-decoration: none;
 }
 section div .tooltiptext
 {
