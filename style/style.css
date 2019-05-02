@@ -22,7 +22,7 @@ h2
 	font-family: "Roboto Condensed", sans-serif;
 	font-size: 3em;
 	font-weight: 400;
-	margin: 20px;
+	margin: 20px 20px 0px 20px;
 }
 h3
 {
@@ -44,6 +44,7 @@ section
 	margin: 20px auto;
 	overflow: hidden;
 	width: 90%;
+	padding-bottom: 20px;
 }
 section div
 {
@@ -51,9 +52,9 @@ section div
 	display: inline-block;
 	position: relative;
 	float: left;
-	width: 25%;
+	width: 20%;
 	overflow: hidden;
-	padding: 20px;
+	padding: 20px 20px 0px 20px;
 }
 img
 {
