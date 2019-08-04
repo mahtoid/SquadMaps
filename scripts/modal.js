@@ -8,6 +8,8 @@ var map_dict = {
 
 function view_vehicles (map)
 {
+	var body = document.getElementsByTagName("BODY")[0];
+	body.style.overflow = "hidden";
 
 	var ul_blufor = document.getElementById("list_blufor");
 	var ul_opfor = document.getElementById("list_opfor");
@@ -313,6 +315,9 @@ window.onclick = function (event)
 {
 	if (event.target == modal)
 	{
+		var body = document.getElementsByTagName("BODY")[0];
+		body.style.overflow = "auto";
+
 		modal.style.display = "none";
 
 		var ul_blufor = document.getElementById("list_blufor");
