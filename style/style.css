@@ -85,7 +85,7 @@ section div h3
 	transform: translate(-50%, -50%);
 	width: 60%;
 	height: 80%;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 .modal_content h2
 {
