@@ -8,7 +8,25 @@ var map_dict = {
 	Al_Basrah_Skirmish_v1: ["GB", "100", "HX60 Logistics Truck", "HX60 Logistics Truck", "INS", "100", "Armored Technical DshK", "Logistics Technical", "Logistics Technical", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
 	Al_Basrah_Skirmish_v2: ["MIL", "100", "Logistics Technical", "Logistics Technical", "Minsk Motorcycle", "Minsk Motorcycle", "Transport Technical", "ZU-23 Anti-Air Truck", "INS", "100", "Logistics Technical", "Logistics Technical", "Minsk Motorcycle", "Minsk Motorcycle", "Transport Technical", "ZU-23 Anti-Air Truck"],
 	Al_Basrah_TC_v1: ["GB", "400", "FV510 UA IFV", "FV510 UA IFV", "FV510 UA IFV", "HX60 Transport Truck", "Delayed 06:00", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Logistics Truck", "FV432 APC", "FV432 APC", "INS", "400", "T-62 MBT", "Delayed 30:00", "BRDM-2 Spandrel", "Delayed 30:00", "BMP-1 ZU-23 Anti Air APC", "Transport Technical", "Delayed 06:00", "Armored Technical SPG-9", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Armored Technical DshK", "Armored Technical DshK", "Technical DshK", "Technical DshK", "ZU-23 Anti-Air Truck", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
-	Al_Basrah_TC_v2: ["US", "400", "M1126 M2HB APC", "M1126 M2HB APC", "M2A2 IFV", "M-ATV M2HB", "M-ATV M2HB", "M939 Transport Truck", "Delayed 06:00", "M939 Logistics Truck", "M939 Logistics Truck", "INS", "400", "T-62 MBT", "Delayed 20:00", "BRDM-2 Spandrel", "BMP-1 ZU-23 Anti Air APC", "Transport Technical", "Delayed 06:00", "Armored Technical SPG-9", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Armored Technical DshK", "Armored Technical DshK", "Technical DshK", "Technical DshK", "ZU-23 Anti-Air Truck", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
+	Al_Basrah_TC_v2: ["USA", "400", "M1126 M2HB APC", "M1126 M2HB APC", "M2A2 IFV", "M-ATV M2HB", "M-ATV M2HB", "M939 Transport Truck", "Delayed 06:00", "M939 Logistics Truck", "M939 Logistics Truck", "INS", "400", "T-62 MBT", "Delayed 20:00", "BRDM-2 Spandrel", "BMP-1 ZU-23 Anti Air APC", "Transport Technical", "Delayed 06:00", "Armored Technical SPG-9", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Armored Technical DshK", "Armored Technical DshK", "Technical DshK", "Technical DshK", "ZU-23 Anti-Air Truck", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
+	Belaya_AAS_v1: ["RUS", "300", "BMP-2 IFV", "BTR-80 APC", "BTR-82A IFV", "BTR-82A IFV", "MT-LBM 6MA IFV", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Delayed 06:00", "MIL", "300", "BMP-1 IFV", "BRDM-2 Spandrel", "BRDM-2 Scout Car", "MT-LB VMK APC", "MT-LB ZU-23 Anti Air APC", "Technical DshK", "Technical DshK", "Technical DshK", "Logistics Technical", "Technical SPG-9", "Transport Technical", "Delayed 06:00", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck"],
+	Belaya_Invasion_v1: ["RUS", "150", "BMP-2 IFV", "BTR-80 APC", "BTR-82A IFV", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00", "MIL", "800", "BRDM-2 Spandrel", "BRDM-2 Scout Car", "MT-LB ZU-23 Anti Air APC", "Technical DshK", "Technical DshK", "Logistics Technical", "Technical SPG-9", "Technical SPG-9", "Transport Technical", "Delayed 06:00", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck"],
+	Belaya_Invasion_v2: ["USA", "150", "M1A2 MBT", "Delayed 20:00", "M2A2 IFV", "M2A2 IFV", "M1126 M2HB APC", "M-ATV TOW", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "RUS", "800", "T-72B3 MBT", "Delayed 20:00", "BMP-2 IFV", "BRDM-2 Spandrel", "BTR-82A IFV", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Belaya_Invasion_v3: ["GB", "150", "FV4034 MBT", "Delayed 20:00", "FV510 UA IFV", "FV510 UA IFV", "FV510 UA IFV", "FV432 APC", "FV432 APC", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Transport Truck", "Delayed 06:00", "RUS", "800", "T-72B3 MBT", "Delayed 20:00", "BMP-2 IFV", "BRDM-2 Spandrel", "BTR-80 APC", "BTR-82A IFV", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Belaya_RAAS_v1: ["USA", "300", "M1A2 MBT", "Delayed 20:00", "M2A2 IFV", "M1126 M2HB APC", "M1126 M2HB APC", "M-ATV TOW", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "RUS", "300", "T-72B3 MBT", "Delayed 20:00", "BMP-2 IFV", "BRDM-2 Spandrel", "BTR-82A IFV", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Belaya_RAAS_v2: ["USA", "300", "M1126 M2HB APC", "M1126 M240 APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "M-ATV M2HB", "M-ATV M2HB", "MIL", "300", "BRDM-2 Spandrel", "BMP-1 ZU-23 Anti Air APC", "BRDM-2 Scout Car", "Technical DshK", "Logistics Technical", "Logistics Technical", "Technical SPG-9", "Transport Technical", "Delayed 06:00", "Transport Technical", "Delayed 06:00", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck"],
+	Belaya_RAAS_v3: ["GB", "300", "FV4034 MBT", "Delayed 20:00", "FV510 UA IFV", "FV510 UA IFV", "FV432 APC", "FV432 APC", "FV432 APC", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Transport Truck", "Delayed 06:00", "MIL", "300", "T-62 MBT", "Delayed 20:00", "BMP-1 IFV", "BMP-1 IFV", "BRDM-2 Spandrel", "BRDM-2 Scout Car", "Technical DshK", "Technical DshK", "Logistics Technical", "Transport Technical", "Delayed 06:00", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
+	Belaya_Skirmish_v1: ["RUS", "100", "MT-LB VMK APC", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "MIL", "100", "Technical DshK", "Ural 375 Logistics Truck", "Ural 375 Logistics Truck"],
+	Belaya_TC_v1: ["USA", "400", "M1A2 MBT", "Delayed 20:00", "M2A2 IFV", "M1126 M2HB APC", "M1126 M2HB APC", "M-ATV TOW", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "RUS", "400", "T-72B3 MBT", "Delayed 20:00", "BMP-2 IFV", "BRDM-2 Spandrel", "BTR-82A IFV", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Chora_AAS_v1: ["USA", "300", "M1126 M2HB APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "M-ATV M2HB", "M-ATV M240 CROWS", "RUS", "300", "BTR-80 APC", "BTR-82A IFV", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Chora_AAS_v2: ["USA", "300", "M1126 M240 APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "M-ATV M2HB", "M-ATV M240 CROWS", "RUS", "300", "BTR-80 APC", "BTR-82A IFV", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Chora_Insurgency_v1: ["USA", "200", "M1126 M2HB APC", "M1126 M240 APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "M-ATV M2HB", "INS", "600", "Technical DshK", "Armored Technical DshK", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Logistics Technical", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
+	Chora_Invasion_v1: ["USA", "150", "M1126 M2HB APC", "M1126 M2HB APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M-ATV M2HB", "M-ATV M2HB", "INS", "800", "MT-LB APC", "Technical DshK", "Technical DshK", "Armored Technical DshK", "Armored Technical DshK", "Logistics Technical", "Logistics Technical", "Technical SPG-9", "ZU-23 Anti-Air Truck"],
+	Chora_Invasion_v1_Night: ["USA", "150", "M1126 M2HB APC", "M1126 M2HB APC", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M-ATV M2HB", "M-ATV M2HB", "INS", "800", "MT-LB APC", "Technical DshK", "Technical DshK", "Armored Technical DshK", "Armored Technical DshK", "Armored Technical DshK", "Logistics Technical", "Logistics Technical", "Logistics Technical", "ZU-23 Anti-Air Truck", "ZU-23 Anti-Air Truck", "Transport Technical", "Technical SPG-9", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle", "Minsk Motorcycle"],
+	Chora_RAAS_v1: ["USA", "300", "M1126 M2HB APC", "M-ATV TOW", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "M-ATV M2HB CROWS", "RUS", "300", "BRDM-2 Spandrel", "BTR-80 APC", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Chora_RAAS_v2: ["GB", "300", "FV510 IFV", "FV432 APC", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Logistics Truck", "HX60 Transport Truck", "Delayed 06:00", "RUS", "300", "BTR-80 APC", "BTR-82A IFV", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
+	Chora_Skirmish_v1: ["USA", "100", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "RUS", "100", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck"],
+	Chora_TC_v1: ["USA", "500", "M1126 M2HB APC", "M-ATV TOW", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Logistics Truck", "M939 Transport Truck", "Delayed 06:00", "M-ATV M2HB", "M-ATV M2HB CROWS", "RUS", "500", "BRDM-2 Spandrel", "BTR-80 APC", "BTR-82A IFV", "BRDM-2 Scout Car", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Logistics Truck", "Ural 4320 Transport Truck", "Delayed 06:00"],
 }
 
 function view_vehicles (map)
@@ -65,6 +83,7 @@ function view_vehicles (map)
 		switch (element)
 		{
 			case "BMP-1 ZU-23 Anti Air APC":
+			case "MT-LB ZU-23 Anti Air APC":
 				img.src = "img/map_antiair.png";
 				p.innerHTML = element;
 				break;
@@ -123,6 +142,7 @@ function view_vehicles (map)
 			case "FV432 APC":
 			case "MT-LB VMK APC":
 			case "MT-LB APC":
+			case "MT-LBM 6MA IFV":
 				img.src = "img/map_trackedapc.png";
 				p.innerHTML = element;
 				break;
@@ -209,6 +229,7 @@ function view_vehicles (map)
 		switch (element)
 		{
 			case "BMP-1 ZU-23 Anti Air APC":
+			case "MT-LB ZU-23 Anti Air APC":
 				img.src = "img/map_antiair.png";
 				p.innerHTML = element;
 				break;
@@ -267,6 +288,7 @@ function view_vehicles (map)
 			case "FV432 APC":
 			case "MT-LB VMK APC":
 			case "MT-LB APC":
+			case "MT-LBM 6MA IFV":
 				img.src = "img/map_trackedapc.png";
 				p.innerHTML = element;
 				break;
