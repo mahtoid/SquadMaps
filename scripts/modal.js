@@ -22,7 +22,7 @@ var map_dict = {
 function view_vehicles (map)
 {
 	var body = document.getElementsByTagName("BODY")[0];
-	body.style.overflow = "hidden";
+	body.style.overflow = "inherit";
 
 	var team_1_ul = document.getElementById("team_1_vehicles");
 	var team_2_ul = document.getElementById("team_2_vehicles");
