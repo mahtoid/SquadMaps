@@ -86,14 +86,15 @@ section div h3
 	width: 60%;
 	height: 80%;
 	overflow-y: auto;
+	border: 2px solid #FFC200;
 }
 .modal_content h2
 {
 	border-bottom: 2px solid #FFC200;
 	color: #FFFFFF;
 	font: normal normal 700 3em "Roboto Condensed", sans-serif;
-	margin: 10px 0px;
-	padding-left: 20px;
+	padding: 10px 0px;
+	text-align: center;
 }
 .modal_content div
 {
@@ -118,13 +119,26 @@ section div h3
 {
 	display: inline-block;
 	color: #FFFFFF;
-	font: normal normal 700 1em "Roboto Condensed", sans-serif;
+	font: normal normal 700 1.5em "Roboto Condensed", sans-serif;
 	padding-left: 10px;
 }
 .modal_content ul
 {
 	overflow: visible;
-	padding: 10px 0px 0px 10px;
+	border-top: 1px solid white;
+	padding-top: 5px;
+}
+.modal_content li
+{
+	margin-top: 2px;
+}
+.modal_content li p
+{
+	display: inline-block;
+	text-align: right;
+	min-width: 1em;
+	color: #FFFFFF;
+	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
 }
 .modal_content li img
 {
@@ -132,17 +146,18 @@ section div h3
 	display: inline-block;
 	vertical-align: -50%;
 }
-.modal_content li p
+.modal_content li h6
 {
 	display: inline-block;
 	color: #FFFFFF;
 	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
-	padding-left: 20px;
+	padding-left: 5px;
 }
-.modal_content li p small
+.modal_content li small
 {
-	font-size: 0.6em;
-	padding-left: 20px;
+	color: #FFFFFF;
+	font: normal normal 300 0.8em "Roboto Condensed", sans-serif;
+	padding-left: 10px;
 }
 
 #top_links
