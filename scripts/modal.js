@@ -1,7 +1,11 @@
 var modal = document.getElementById("modal_background")
 
 var map_dict = {
-	"Al_Basrah_AAS_v1": {"Team_1": {"Name": "USA","Tickets": 250,"Vehicles": [{"Name": "M1126 M2HB APC", "Amount": 2, "Delay": ""},{"Name": "M2A3 IFV", "Amount": 1, "Delay": ""},{"Name": "M-ATV M2HB", "Amount": 2, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""}]},"Team_2": {"Name": "INS","Tickets": 250,"Vehicles": [{"Name": "T-62 MBT", "Amount": 1, "Delay": "30:00"},{"Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": "30:00"},{"Name": "BMP-1 ZU-23 Anti Air APC", "Amount": 1, "Delay": ""},{"Name": "Logistics Technical", "Amount": 4, "Delay": ""},{"Name": "Armored Technical DshK", "Amount": 2, "Delay": ""},{"Name": "Technical DshK", "Amount": 2, "Delay": ""},{"Name": "Armored Technical SPG-9", "Amount": 1, "Delay": ""},{"Name": "Transport Technical", "Amount": 1, "Delay": "06:00"},{"Name": "ZU-23 Anti-Air Truck", "Amount": 1, "Delay": ""},{"Name": "Minsk Motorcycle", "Amount": 4, "Delay": ""}]}}
+	"Al_Basrah_AAS_v1": { "Team_1": { "Name": "USA", "Tickets": 250, "Vehicles": [{ "Name": "M1126 M2HB APC", "Amount": 2, "Delay": "" }, { "Name": "M2A3 IFV", "Amount": 1, "Delay": "" }, { "Name": "M-ATV M2HB", "Amount": 2, "Delay": "" }, { "Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "M939 Logistics Truck", "Amount": 3, "Delay": "" }] }, "Team_2": { "Name": "INS", "Tickets": 250, "Vehicles": [{ "Name": "T-62 MBT", "Amount": 1, "Delay": "30:00" }, { "Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": "30:00" }, { "Name": "BMP-1 ZU-23 Anti Air APC", "Amount": 1, "Delay": "" }, { "Name": "Logistics Technical", "Amount": 4, "Delay": "" }, { "Name": "Armored Technical DshK", "Amount": 2, "Delay": "" }, { "Name": "Technical DshK", "Amount": 2, "Delay": "" }, { "Name": "Armored Technical SPG-9", "Amount": 1, "Delay": "" }, { "Name": "Transport Technical", "Amount": 1, "Delay": "06:00" }, { "Name": "ZU-23 Anti-Air Truck", "Amount": 1, "Delay": "" }, { "Name": "Minsk Motorcycle", "Amount": 4, "Delay": "" }] } },
+	"Belaya_Invasion_v3": { "Team_1": { "Name": "GB", "Tickets": 150, "Vehicles": [{ "Name": "FV4034 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "FV510 UA IFV", "Amount": 3, "Delay": "" }, { "Name": "HX60 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "HX60 Logistics Truck", "Amount": 3, "Delay": "" }, { "Name": "FV432 APC", "Amount": 2, "Delay": "" }] }, "Team_2": { "Name": "RUS", "Tickets": 800, "Vehicles": [{ "Name": "T-72B3 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "BTR-82A IFV", "Amount": 2, "Delay": "" }, { "Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": "" }, { "Name": "BMP-2 IFV", "Amount": 1, "Delay": "" }, { "Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "" }, { "Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "Ural 4320 Logistics Truck", "Amount": 4, "Delay": "" }, { "Name": "BTR-80 APC", "Amount": 1, "Delay": "" }, { "Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": "" }] } },
+	"Gorodok_AAS_v2": { "Team_1": { "Name": "USA", "Tickets": 300, "Vehicles": [{ "Name": "M1A2 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "M1126 M2HB APC", "Amount": 2, "Delay": "" }, { "Name": "M2A3 IFV", "Amount": 1, "Delay": "" }, { "Name": "UH-60M Grouse", "Amount": 2, "Delay": "10:00" }, { "Name": "M-ATV M2HB", "Amount": 1, "Delay": "" }, { "Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "M939 Logistics Truck", "Amount": 3, "Delay": "" }] }, "Team_2": { "Name": "GB", "Tickets": 300, "Vehicles": [{ "Name": "FV4034 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "FV510 UA IFV", "Amount": 2, "Delay": "" }, { "Name": "FV510 IFV", "Amount": 1, "Delay": "" }, { "Name": "UH-60M Grouse", "Amount": 2, "Delay": "10:00" }, { "Name": "HX60 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "HX60 Logistics Truck", "Amount": 3, "Delay": "" }, { "Name": "FV432 APC", "Amount": 1, "Delay": "" }] } },
+	"Mutaha_TC_v2": { "Team_1": { "Name": "USA", "Tickets": 400, "Vehicles": [{ "Name": "M1A2 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "M1126 M2HB APC", "Amount": 2, "Delay": "" }, { "Name": "M2A3 IFV", "Amount": 1, "Delay": "" }, { "Name": "M-ATV M2HB", "Amount": 1, "Delay": "" }, { "Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "M939 Logistics Truck", "Amount": 3, "Delay": "" }] }, "Team_2": { "Name": "RUS", "Tickets": 400, "Vehicles": [{ "Name": "T-72B3 MBT", "Amount": 1, "Delay": "20:00" }, { "Name": "BTR-82A IFV", "Amount": 2, "Delay": "" }, { "Name": "BMP-2 IFV", "Amount": 1, "Delay": "" }, { "Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": "" }, { "Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": "" }] } },
+	"Tallil_Outskirts_AAS_v1": { "Team_1": { "Name": "USA", "Tickets": 350, "Vehicles": [{ "Name": "M1A2 MBT", "Amount": 2, "Delay": "20:00" }, { "Name": "M-ATV TOW", "Amount": 1, "Delay": "" }, { "Name": "M1126 M2HB APC", "Amount": 2, "Delay": "" }, { "Name": "M2A3 IFV", "Amount": 1, "Delay": "" }, { "Name": "UH-60M Grouse", "Amount": 2, "Delay": "" }, { "Name": "M-ATV M2HB", "Amount": 1, "Delay": "" }, { "Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00" }, { "Name": "M939 Logistics Truck", "Amount": 3, "Delay": "" }] }, "Team_2": { "Name": "RUS", "Tickets": 350, "Vehicles": [{ "Name": "T-72B3 MBT", "Amount": 2, "Delay": "20:00" }, { "Name": "BTR-82A IFV", "Amount": 2, "Delay": "" }, { "Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": "" }, { "Name": "BMP-2 IFV", "Amount": 1, "Delay": "" }, { "Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": "" }, { "Name": "MI-8 Hip", "Amount": 2, "Delay": "" }, { "Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": "" }, { "Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00" }] } }
 }
 
 function view_vehicles (map)
@@ -119,6 +123,10 @@ function view_vehicles (map)
 			case "MT-LBM 6MB IFV":
 				vehicle_img.src = "img/map_trackedifv.png";
 				break;
+			case "UH-60M Grouse":
+			case "MI-8 Hip":
+				vehicle_img.src = "img/map_transporthelo.png";
+				break;
 			case "ZU-23 Anti-Air Truck":
 				vehicle_img.src = "img/map_truck_antiair.png";
 				break;
@@ -219,6 +227,10 @@ function view_vehicles (map)
 			case "FV510 UA IFV":
 			case "MT-LBM 6MB IFV":
 				vehicle_img.src = "img/map_trackedifv.png";
+				break;
+			case "UH-60M Grouse":
+			case "MI-8 Hip":
+				vehicle_img.src = "img/map_transporthelo.png";
 				break;
 			case "ZU-23 Anti-Air Truck":
 				vehicle_img.src = "img/map_truck_antiair.png";
