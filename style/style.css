@@ -17,24 +17,6 @@ section
 	padding: 10px 20px;
 	overflow: hidden;
 }
-.headers_section
-{
-	text-align: center;
-}
-section .headers
-{
-	color: #FFFFFF;
-	text-decoration: none;
-	font: normal normal 700 1em "Roboto Condensed", sans-serif;
-	padding: 3px;
-}
-section .headers:hover
-{
-	color: #FFC200;
-	text-decoration: none;
-	font: normal normal 700 1em "Roboto Condensed", sans-serif;
-	padding: 3px;
-}
 section h2
 {
 	border-bottom: 2px solid #FFC200;
@@ -45,7 +27,7 @@ section h2
 section div
 {
 	float: left;
-	width: 16.666%;
+	width: 20%;
 	text-align: center;
 	padding-bottom: 20px;
 }
@@ -73,15 +55,10 @@ section div h3
 	background-color: #FFC200;
 	width: 18%;
 	box-sizing: border-box;
-	margin-top: 4px;
-}
-.vehicles:hover
-{
-	background-color: #FFD446;
 }
 .vehicles img 
 {
-	width: 25px;
+	width: 30px;
 	vertical-align: middle;
 	filter: brightness(0);
 }
@@ -107,7 +84,7 @@ section div h3
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 60%;
-	height: 60%;
+	height: 80%;
 	overflow-y: auto;
 	border: 2px solid #FFC200;
 }
