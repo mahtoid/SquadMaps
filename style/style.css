@@ -63,6 +63,8 @@ section div h3
 	width: 80%;
 	text-align: left;
 	box-sizing: border-box;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .vehicles
 {
