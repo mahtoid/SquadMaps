@@ -1,5 +1,72 @@
 var modal = document.getElementById("modal_background")
 
+
+// TODO: Add the maps below:
+// TODO: Al Basrah AAS v2
+// TODO: Al Basrah TA v1
+// TODO: CAF_Al_Basrah_Invasion_v2
+// TODO: Belaya AAS v2
+// TODO: CAF_Belaya_AAS_v1
+// TODO: CAF_Belaya_RAAS_v1
+// TODO: CAF_Belaya_RAAS_v2
+// TODO: CAF_Chora_AAS_v1
+// TODO: CAF_Chora_RAAS_v1
+// TODO: Fallujah AAS v1
+// TODO: Fallujah AAS v2
+// TODO: Fallujah Insurgency v1
+// TODO: Fallujah Invasion v1
+// TODO: Fallujah Invasion v2
+// TODO: Fallujah Invasion v3
+// TODO: Fallujah RAAS v1
+// TODO: Fallujah RAAS v2
+// TODO: Fallujah RAAS v3
+// TODO: Fallujah Skirmish v1
+// TODO: Fallujah Skirmish v2
+// TODO: Fallujah TC v1
+// TODO: Fallujah TC v2
+// TODO: CAF_Fallujah_Invasion_v1
+// TODO: CAF_Fallujah_RAAS_v1
+// TODO: CAF_Fool's_Road_RAAS_v1
+// TODO: Gorodok AAS v2
+// TODO: CAF_Gorodok_AAS_v1
+// TODO: CAF_Jensen's_Range_Training_v4 -> CAF_Jensen's_Range_v4
+// TODO: Kohat AAS v2
+// TOOD: CAF_Kokan_RAAS_v1
+// TODO: Logar AAS v1 -> Lashkar Valley AAS v1
+// TODO: Logar AAS v2 -> Lashkar Valley AAS v2
+// TODO: Logar Insurgency v1 -> Lashkar Valley Insurgency v1
+// TODO: Lashkar Valley Invasion v1
+// TODO: Logar RAAS v1 -> Lashkar Valley RAAS v1
+// TODO: Logar Skirmish v1 -> Lashkar Valley Skirmish v1
+// TODO: Logar TC v1 -> Lashkar Valley TC v1
+// TODO: Lashkar Valley TC v2
+// TODO: CAF_Lashkar_Valley_Invasion_v1
+// TODO: CAF_Lashkar_Valley_RAAS_v1
+// TODO: CAF_Lashkar_Valley_TC_v1
+// TODO: Logar Valley AAS v1
+// TODO: Logar Valley AAS v2
+// TODO: Logar Valley Insurgency v1
+// TODO: Logar Valley RAAS v1
+// TODO: Logar Valley Skirmish v1
+// TODO: Logar Valley TC v1
+// TODO: CAF_Logar_Valley_RAAS_v1
+// TODO: CAF_Manic-5_AAS_v2
+// TODO: CAF_Mutaha_AAS_v1
+// TODO: CAF_Mutaha_RAAS_v2
+// TODO: CAF_Nanisivik_AAS_v1
+// TODO: Narva TA v1
+// TODO: CAF_Skorpo_RAAS_v1
+// TODO: CAF_Sumari_AAS_v1
+// TODO: Tallil Outskirts AAS v2
+// TODO: Tallil Outskirts TA v1
+// TODO: CAF_Tallil_Outskirts_RAAS_v2
+// TODO: Yehorivka TA v1
+
+// TODO: Update teams to V1
+// TODO: Update vehcile list and cooldown to V1
+// Source : https://docs.google.com/spreadsheets/d/1SiKtpNkOy3Gk52IFue5IacIeRDpB20ONmH3_p_B29_w/edit#gid=368118095
+
+
 var map_dict = {
 	"Al_Basrah_AAS_v1": {"Team_1": {"Name": "USA","Tickets": 250,"Vehicles": [{"Name": "M2A3 IFV", "Amount": 1, "Delay": ""},{"Name": "M1126 M2HB APC", "Amount": 2, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "M-ATV M2HB", "Amount": 2, "Delay": ""}]},"Team_2": {"Name": "INS","Tickets": 250,"Vehicles": [{"Name": "T-62 MBT", "Amount": 1, "Delay": "30:00"},{"Name": "BMP-1 ZU-23 Anti Air APC", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": "30:00"},{"Name": "Technical DshK", "Amount": 2, "Delay": ""},{"Name": "Armored Technical DshK", "Amount": 2, "Delay": ""},{"Name": "Logistics Technical", "Amount": 4, "Delay": ""},{"Name": "Armored Technical SPG-9", "Amount": 1, "Delay": ""},{"Name": "Transport Technical", "Amount": 1, "Delay": "06:00"},{"Name": "ZU-23 Anti-Air Truck", "Amount": 1, "Delay": ""},{"Name": "Minsk Motorcycle", "Amount": 4, "Delay": ""}]}},
 	"Al_Basrah_Insurgency_v1": {"Team_1": {"Name": "GB","Tickets": 200,"Vehicles": [{"Name": "FV510 IFV", "Amount": 1, "Delay": ""},{"Name": "FV510 UA IFV", "Amount": 2, "Delay": ""},{"Name": "FV432 APC", "Amount": 2, "Delay": ""},{"Name": "HX60 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "HX60 Transport Truck", "Amount": 1, "Delay": "06:00"}]},"Team_2": {"Name": "INS","Tickets": 600,"Vehicles": [{"Name": "Technical DshK", "Amount": 3, "Delay": ""},{"Name": "Armored Technical DshK", "Amount": 1, "Delay": ""},{"Name": "Logistics Technical", "Amount": 5, "Delay": ""},{"Name": "Armored Technical SPG-9", "Amount": 1, "Delay": ""},{"Name": "ZU-23 Anti-Air Truck", "Amount": 1, "Delay": ""},{"Name": "Technical SPG-9", "Amount": 2, "Delay": ""},{"Name": "Minsk Motorcycle", "Amount": 14, "Delay": ""}]}},
@@ -163,7 +230,7 @@ var map_dict = {
 	"CAF_Gorodok_RAAS_v1": {"Team_1": {"Name": "CAF","Tickets": 300,"Vehicles": [{"Name": "Leopard 2A6M", "Amount": 1, "Delay": ""},{"Name": "LAV 6.0", "Amount": 3, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 2, "Delay": ""},{"Name": "UH-60M Grouse", "Amount": 2, "Delay": ""}]},"Team_2": {"Name": "RUS","Tickets": 300,"Vehicles": [{"Name": "T-72B3 MBT", "Amount": 1, "Delay": ""},{"Name": "BMP-2 IFV", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": ""},{"Name": "BTR-82A IFV", "Amount": 2, "Delay": ""},{"Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": ""},{"Name": "MI-8 Hip", "Amount": 2, "Delay": ""},{"Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00"}]}},
 	"CAF_Gorodok_RAAS_v2": {"Team_1": {"Name": "CAF","Tickets": 300,"Vehicles": [{"Name": "Leopard 2A6M", "Amount": 1, "Delay": "20:00"},{"Name": "LAV 6.0", "Amount": 2, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 2, "Delay": ""},{"Name": "UH-60M Grouse", "Amount": 2, "Delay": ""}]},"Team_2": {"Name": "RUS","Tickets": 300,"Vehicles": [{"Name": "T-72B3 MBT", "Amount": 1, "Delay": "20:00"},{"Name": "BMP-2 IFV", "Amount": 1, "Delay": ""},{"Name": "BTR-82A IFV", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": ""},{"Name": "MI-8 Hip", "Amount": 2, "Delay": ""},{"Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00"}]}},
 	"CAF_Gorodok_TC_v1": {"Team_1": {"Name": "CAF","Tickets": 300,"Vehicles": [{"Name": "LAV 6.0", "Amount": 2, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 2, "Delay": ""},{"Name": "UH-60M Grouse", "Amount": 1, "Delay": ""}]},"Team_2": {"Name": "RUS","Tickets": 300,"Vehicles": [{"Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": ""},{"Name": "BTR-82A IFV", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": ""},{"Name": "BTR-80 APC", "Amount": 1, "Delay": ""},{"Name": "MI-8 Hip", "Amount": 1, "Delay": ""},{"Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00"}]}},
-	"CAF_Jensen's_Range_Training_v4": {"Team_1": {"Name": "CAF","Tickets": 99999,"Vehicles": []},"Team_2": {"Name": "INS","Tickets": 99999,"Vehicles": []}},
+	"CAF_Jensen's_Range_v4": {"Team_1": {"Name": "CAF","Tickets": 99999,"Vehicles": []},"Team_2": {"Name": "INS","Tickets": 99999,"Vehicles": []}},
 	"CAF_Kamdesh_Invasion_v1": {"Team_1": {"Name": "CAF","Tickets": 150,"Vehicles": [{"Name": "Leopard 2A6M", "Amount": 1, "Delay": "10:00"},{"Name": "LAV 6.0", "Amount": 2, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 2, "Delay": ""}]},"Team_2": {"Name": "INS","Tickets": 800,"Vehicles": [{"Name": "T-62 MBT", "Amount": 1, "Delay": "10:00"},{"Name": "BMP-1 IFV", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Spandrel", "Amount": 1, "Delay": ""},{"Name": "BMP-1 ZU-23 Anti Air APC", "Amount": 1, "Delay": ""},{"Name": "Technical DshK", "Amount": 1, "Delay": ""},{"Name": "Armored Technical DshK", "Amount": 1, "Delay": ""},{"Name": "Logistics Technical", "Amount": 3, "Delay": ""},{"Name": "Armored Technical SPG-9", "Amount": 1, "Delay": ""},{"Name": "Ural 375 Logistics Truck", "Amount": 1, "Delay": ""},{"Name": "MT-LB APC", "Amount": 1, "Delay": ""},{"Name": "Minsk Motorcycle", "Amount": 4, "Delay": ""}]}},
 	"CAF_Kamdesh_RAAS_v1": {"Team_1": {"Name": "CAF","Tickets": 300,"Vehicles": [{"Name": "LAV 6.0", "Amount": 3, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 2, "Delay": ""}]},"Team_2": {"Name": "RUS","Tickets": 300,"Vehicles": [{"Name": "BMP-2 IFV", "Amount": 2, "Delay": ""},{"Name": "BTR-82A IFV", "Amount": 1, "Delay": ""},{"Name": "BRDM-2 Scout Car", "Amount": 2, "Delay": ""},{"Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00"}]}},
 	"CAF_Kamdesh_TC_v1": {"Team_1": {"Name": "CAF","Tickets": 400,"Vehicles": [{"Name": "LAV 6.0", "Amount": 2, "Delay": ""},{"Name": "M939 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "M939 Transport Truck", "Amount": 1, "Delay": "06:00"},{"Name": "TAPV", "Amount": 1, "Delay": ""}]},"Team_2": {"Name": "RUS","Tickets": 400,"Vehicles": [{"Name": "BMP-2 IFV", "Amount": 1, "Delay": ""},{"Name": "BTR-82A IFV", "Amount": 2, "Delay": ""},{"Name": "BRDM-2 Scout Car", "Amount": 1, "Delay": ""},{"Name": "Ural 4320 Logistics Truck", "Amount": 3, "Delay": ""},{"Name": "Ural 4320 Transport Truck", "Amount": 1, "Delay": "06:00"}]}},
