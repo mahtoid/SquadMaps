@@ -108,10 +108,16 @@ section div h3
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 60%;
-	height: 60%;
-	overflow-y: auto;
+	width: 90%;
+	height: 90%;
+	overflow-y: hidden;
 	border: 2px solid #FFC200;
+	display: flex;
+	flex-direction: column;
+}
+.full_height
+{
+	flex-grow: 1;
 }
 .modal_content h2
 {
@@ -121,33 +127,86 @@ section div h3
 	padding: 10px 0px;
 	text-align: center;
 }
-.modal_content div
+.modal_side_panel
 {
-	width: 50%;
+	width: 25%;
+	height: 100%;
 	float: left;
-	padding: 10px 50px;
-	box-sizing: border-box;
 	overflow: hidden;
+	box-sizing: border-box;
+
+	padding: 10px 20px;
 }
-.modal_content img
+.modal_center_panel
+{
+	border-left: 2px solid #FFC200;
+	border-right: 2px solid #FFC200;
+	width: 50%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.modal_center_panel_top
+{
+	width: 100%;
+	height: 10%;
+	float: left;
+	color: #FFFFFF;
+	padding: 24px 0px;
+	box-sizing: border-box;
+}
+.modal_center_panel_top div
+{
+	text-align: center;
+	display: block;
+	width: 33%;
+	float: left;
+}
+.modal_label
+{
+	display: inline;
+	font: normal normal 700 1em "Roboto Condensed", sans-serif;
+}
+.modal_value
+{
+	display: inline;
+	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
+}
+.modal_center_panel_bottom
+{
+	width: 100%;
+	height: 87%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	align-content: center;
+}
+.modal_flag
 {
 	display: inline-block;
+	max-height: 3em;
 }
-.modal_content h3
+.modal_team_name
+{
+	display: inline-block;
+	color: #FFFFFF;
+	font: normal normal 700 3em "Roboto Condensed", sans-serif;
+	padding-left: 10px;
+	vertical-align: super;
+}
+.modal_team_tickets
 {
 	display: inline-block;
 	color: #FFFFFF;
 	font: normal normal 700 2em "Roboto Condensed", sans-serif;
 	padding-left: 10px;
+	vertical-align: super;
 }
-.modal_content h4
-{
-	display: inline-block;
-	color: #FFFFFF;
-	font: normal normal 700 1.5em "Roboto Condensed", sans-serif;
-	padding-left: 10px;
-}
-.modal_content ul
+.modal_team_vehicles
 {
 	overflow: visible;
 	border-top: 1px solid white;

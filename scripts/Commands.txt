@@ -5,5 +5,244 @@ r.SetRes 3480x2160f
 r.SetRes 1920x1080f
 
 
-
 AdminSlomo 1000
+
+
+AdminChangeMap Al Basrah AAS v1
+AdminChangeMap Al Basrah AAS v2
+AdminChangeMap Al Basrah Insurgency v1
+AdminChangeMap Al Basrah Invasion v1
+AdminChangeMap Al Basrah Invasion v2
+AdminChangeMap Al Basrah RAAS v1
+AdminChangeMap Al Basrah Skirmish v1
+AdminChangeMap Al Basrah Skirmish v2
+AdminChangeMap Al Basrah TA v1
+AdminChangeMap Al Basrah TC v1
+AdminChangeMap Al Basrah TC v2
+AdminChangeMap Belaya AAS v1
+AdminChangeMap Belaya AAS v2
+AdminChangeMap Belaya Invasion v1
+AdminChangeMap Belaya Invasion v2
+AdminChangeMap Belaya Invasion v3
+AdminChangeMap Belaya RAAS v1
+AdminChangeMap Belaya RAAS v2
+AdminChangeMap Belaya RAAS v3
+AdminChangeMap Belaya Skirmish v1
+AdminChangeMap Belaya TC v1
+AdminChangeMap Chora AAS v1
+AdminChangeMap Chora AAS v2
+AdminChangeMap Chora Insurgency v1
+AdminChangeMap Chora Invasion v1
+AdminChangeMap Chora Invasion v2
+AdminChangeMap Chora RAAS v1
+AdminChangeMap Chora RAAS v2
+AdminChangeMap Chora Skirmish v1
+AdminChangeMap Chora TC v1
+AdminChangeMap Fallujah AAS v1
+AdminChangeMap Fallujah AAS v2
+AdminChangeMap Fallujah Insurgency v1
+AdminChangeMap Fallujah Invasion v1
+AdminChangeMap Fallujah Invasion v2
+AdminChangeMap Fallujah Invasion v3
+AdminChangeMap Fallujah RAAS v1
+AdminChangeMap Fallujah RAAS v2
+AdminChangeMap Fallujah RAAS v3
+AdminChangeMap Fallujah Skirmish v1
+AdminChangeMap Fallujah Skirmish v2
+AdminChangeMap Fallujah TC v1
+AdminChangeMap Fallujah TC v2
+AdminChangeMap Fool's Road AAS v1
+AdminChangeMap Fool's Road AAS v2
+AdminChangeMap Fool's Road Destruction v1
+AdminChangeMap Fool's Road Invasion v1
+AdminChangeMap Fool's Road RAAS v1
+AdminChangeMap Fool's Road RAAS v2
+AdminChangeMap Fool's Road RAAS v3
+AdminChangeMap Fool's Road Skirmish v1
+AdminChangeMap Fool's Road Skirmish v2
+AdminChangeMap Fool's Road TC v1
+AdminChangeMap Gorodok AAS v1
+AdminChangeMap Gorodok AAS v2
+AdminChangeMap Gorodok Destruction v1
+AdminChangeMap Gorodok Insurgency v1
+AdminChangeMap Gorodok Invasion v1
+AdminChangeMap Gorodok Invasion v2
+AdminChangeMap Gorodok RAAS v1
+AdminChangeMap Gorodok RAAS v2
+AdminChangeMap Gorodok RAAS v3
+AdminChangeMap Gorodok RAAS v4
+AdminChangeMap Gorodok RAAS v5
+AdminChangeMap Gorodok Skirmish v1
+AdminChangeMap Gorodok TC v1
+AdminChangeMap Jensen's Range v1
+AdminChangeMap Jensen's Range v2
+AdminChangeMap Jensen's Range v3
+AdminChangeMap Kamdesh AAS v1
+AdminChangeMap Kamdesh Insurgency v1
+AdminChangeMap Kamdesh Insurgency v2
+AdminChangeMap Kamdesh Invasion v1
+AdminChangeMap Kamdesh Invasion v2
+AdminChangeMap Kamdesh Invasion v3
+AdminChangeMap Kamdesh RAAS v1
+AdminChangeMap Kamdesh RAAS v2
+AdminChangeMap Kamdesh RAAS v3
+AdminChangeMap Kamdesh RAAS v4
+AdminChangeMap Kamdesh Skirmish v1
+AdminChangeMap Kamdesh TC v1
+AdminChangeMap Kamdesh TC v2
+AdminChangeMap Kohat AAS v1
+AdminChangeMap Kohat AAS v2
+AdminChangeMap Kohat Insurgency v1
+AdminChangeMap Kohat Invasion v1
+AdminChangeMap Kohat Invasion v2
+AdminChangeMap Kohat RAAS v1
+AdminChangeMap Kohat RAAS v2
+AdminChangeMap Kohat RAAS v3
+AdminChangeMap Kohat RAAS v4
+AdminChangeMap Kohat Skirmish v1
+AdminChangeMap Kohat TC v1
+AdminChangeMap Kokan AAS v1
+AdminChangeMap Kokan Insurgency v1
+AdminChangeMap Kokan Invasion v1
+AdminChangeMap Kokan RAAS v1
+AdminChangeMap Kokan RAAS v2
+AdminChangeMap Kokan Skirmish v1
+AdminChangeMap Kokan TC v1
+AdminChangeMap Lashkar Valley AAS v1
+AdminChangeMap Lashkar Valley AAS v2
+AdminChangeMap Lashkar Valley Insurgency v1
+AdminChangeMap Lashkar Valley Invasion v1
+AdminChangeMap Lashkar Valley RAAS v1
+AdminChangeMap Lashkar Valley Skirmish v1
+AdminChangeMap Lashkar Valley TC v1
+AdminChangeMap Lashkar Valley TC v2
+AdminChangeMap Logar Valley AAS v1
+AdminChangeMap Logar Valley AAS v2
+AdminChangeMap Logar Valley Insurgency v1
+AdminChangeMap Logar Valley RAAS v1
+AdminChangeMap Logar Valley Skirmish v1
+AdminChangeMap Logar Valley TC v1
+AdminChangeMap Mestia AAS v1
+AdminChangeMap Mestia Invasion v1
+AdminChangeMap Mestia Invasion v2
+AdminChangeMap Mestia RAAS v1
+AdminChangeMap Mestia Skirmish v1
+AdminChangeMap Mestia TC v1
+AdminChangeMap Mutaha AAS v1
+AdminChangeMap Mutaha Invasion v1
+AdminChangeMap Mutaha RAAS v1
+AdminChangeMap Mutaha Skirmish v1
+AdminChangeMap Mutaha TC v1
+AdminChangeMap Mutaha TC v2
+AdminChangeMap Narva AAS v1
+AdminChangeMap Narva AAS v2
+AdminChangeMap Narva AAS v3
+AdminChangeMap Narva Destruction v1
+AdminChangeMap Narva Invasion v1
+AdminChangeMap Narva Invasion v2
+AdminChangeMap Narva RAAS v1
+AdminChangeMap Narva Skirmish v1
+AdminChangeMap Narva TA v1
+AdminChangeMap Narva TC v1
+AdminChangeMap Narva TC v2
+AdminChangeMap Skorpo AAS v1
+AdminChangeMap Skorpo Invasion v1
+AdminChangeMap Skorpo Invasion v2
+AdminChangeMap Skorpo RAAS v1
+AdminChangeMap Skorpo RAAS v2
+AdminChangeMap Skorpo RAAS v3
+AdminChangeMap Skorpo RAAS v4
+AdminChangeMap Skorpo Skirmish v1
+AdminChangeMap Skorpo TC v1
+AdminChangeMap Skorpo TC v2
+AdminChangeMap Skorpo TC v3
+AdminChangeMap Sumari AAS v1
+AdminChangeMap Sumari Insurgency v1
+AdminChangeMap Sumari Invasion v1
+AdminChangeMap Sumari RAAS v1
+AdminChangeMap Sumari RAAS v2
+AdminChangeMap Sumari Skirmish v1
+AdminChangeMap Sumari TC v1
+AdminChangeMap Tallil Outskirts AAS v1
+AdminChangeMap Tallil Outskirts AAS v2
+AdminChangeMap Tallil Outskirts Invasion v1
+AdminChangeMap Tallil Outskirts Invasion v2
+AdminChangeMap Tallil Outskirts Invasion v3
+AdminChangeMap Tallil Outskirts RAAS v1
+AdminChangeMap Tallil Outskirts RAAS v2
+AdminChangeMap Tallil Outskirts RAAS v3
+AdminChangeMap Tallil Outskirts RAAS v4
+AdminChangeMap Tallil Outskirts Skirmish v1
+AdminChangeMap Tallil Outskirts Skirmish v2
+AdminChangeMap Tallil Outskirts Skirmish v3
+AdminChangeMap Tallil Outskirts Tanks v1
+AdminChangeMap Tallil Outskirts Tanks v2
+AdminChangeMap Tallil Outskirts TA v1
+AdminChangeMap Tallil Outskirts TC v1
+AdminChangeMap Yehorivka AAS v1
+AdminChangeMap Yehorivka AAS v2
+AdminChangeMap Yehorivka Destruction v1
+AdminChangeMap Yehorivka Invasion v1
+AdminChangeMap Yehorivka Invasion v2
+AdminChangeMap Yehorivka RAAS v1
+AdminChangeMap Yehorivka RAAS v2
+AdminChangeMap Yehorivka RAAS v3
+AdminChangeMap Yehorivka RAAS v4
+AdminChangeMap Yehorivka RAAS v5
+AdminChangeMap Yehorivka Skirmish v1
+AdminChangeMap Yehorivka Skirmish v2
+AdminChangeMap Yehorivka Skirmish v3
+AdminChangeMap Yehorivka TA v1
+AdminChangeMap Yehorivka TC v1
+AdminChangeMap Yehorivka TC v2
+AdminChangeMap CAF_Al_Basrah_Invasion_v1
+AdminChangeMap CAF_Al_Basrah_Invasion_v2
+AdminChangeMap CAF_Belaya_AAS_v1
+AdminChangeMap CAF_Belaya_RAAS_v1
+AdminChangeMap CAF_Belaya_RAAS_v2
+AdminChangeMap CAF_Chora_AAS_v1
+AdminChangeMap CAF_Chora_RAAS_v1
+AdminChangeMap CAF_Fallujah_Invasion_v1
+AdminChangeMap CAF_Fallujah_RAAS_v1
+AdminChangeMap CAF_Fools_Road_RAAS_v1
+AdminChangeMap CAF_Gorodok_AAS_v1
+AdminChangeMap CAF_Gorodok_Invasion_v1
+AdminChangeMap CAF_Gorodok_RAAS_v1
+AdminChangeMap CAF_Gorodok_RAAS_v2
+AdminChangeMap CAF_Gorodok_TC_v1
+AdminChangeMap CAF_Jensens_Range_v4
+AdminChangeMap CAF_Kamdesh_Invasion_v1
+AdminChangeMap CAF_Kamdesh_RAAS_v1
+AdminChangeMap CAF_Kamdesh_TC_v1
+AdminChangeMap CAF_Kohat_Invasion_v1
+AdminChangeMap CAF_Kokan_RAAS_v1
+AdminChangeMap CAF_Lashkar_Valley_Invasion_v1
+AdminChangeMap CAF_Lashkar_Valley_RAAS_v1
+AdminChangeMap CAF_Lashkar_Valley_TC_v1
+AdminChangeMap CAF_Logar_Valley_RAAS_v1
+AdminChangeMap CAF_Manic-5_AAS_v1
+AdminChangeMap CAF_Manic-5_AAS_v2
+AdminChangeMap CAF_Manic-5_Invasion_v1
+AdminChangeMap CAF_Manic-5_Invasion_v2
+AdminChangeMap CAF_Manic-5_RAAS_v1
+AdminChangeMap CAF_Manic-5_RAAS_v2
+AdminChangeMap CAF_Manic-5_RAAS_v3
+AdminChangeMap CAF_Manic-5_RAAS_v4
+AdminChangeMap CAF_Manic-5_Skirmish_v1
+AdminChangeMap CAF_Manic-5_Skirmish_v2
+AdminChangeMap CAF_Manic-5_TC_v1
+AdminChangeMap CAF_Mestia_RAAS_v1
+AdminChangeMap CAF_Mutaha_AAS_v1
+AdminChangeMap CAF_Mutaha_RAAS_v1
+AdminChangeMap CAF_Mutaha_RAAS_v2
+AdminChangeMap CAF_Nanisivik_AAS_v1
+AdminChangeMap CAF_Nanisivik_Invasion_v1
+AdminChangeMap CAF_Nanisivik_RAAS_v1
+AdminChangeMap CAF_Narva_RAAS_v1
+AdminChangeMap CAF_Skorpo_RAAS_v1
+AdminChangeMap CAF_Sumari_AAS_v1
+AdminChangeMap CAF_Tallil_Outskirts_RAAS_v1
+AdminChangeMap CAF_Tallil_Outskirts_RAAS_v2
+AdminChangeMap CAF_Yehorivka_Invasion_v1
+AdminChangeMap CAF_Yehorivka_RAAS_v1
+AdminChangeMap CAF_Yehorivka_TC_V1

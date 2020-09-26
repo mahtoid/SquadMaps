@@ -1,13 +1,16 @@
 Al Basrah AAS v1
+Al Basrah AAS v2
 Al Basrah Insurgency v1
 Al Basrah Invasion v1
 Al Basrah Invasion v2
 Al Basrah RAAS v1
 Al Basrah Skirmish v1
 Al Basrah Skirmish v2
+Al Basrah TA v1
 Al Basrah TC v1
 Al Basrah TC v2
 Belaya AAS v1
+Belaya AAS v2
 Belaya Invasion v1
 Belaya Invasion v2
 Belaya Invasion v3
@@ -25,6 +28,19 @@ Chora RAAS v1
 Chora RAAS v2
 Chora Skirmish v1
 Chora TC v1
+Fallujah AAS v1
+Fallujah AAS v2
+Fallujah Insurgency v1
+Fallujah Invasion v1
+Fallujah Invasion v2
+Fallujah Invasion v3
+Fallujah RAAS v1
+Fallujah RAAS v2
+Fallujah RAAS v3
+Fallujah Skirmish v1
+Fallujah Skirmish v2
+Fallujah TC v1
+Fallujah TC v2
 Fool's Road AAS v1
 Fool's Road AAS v2
 Fool's Road Destruction v1
@@ -36,6 +52,7 @@ Fool's Road Skirmish v1
 Fool's Road Skirmish v2
 Fool's Road TC v1
 Gorodok AAS v1
+Gorodok AAS v2
 Gorodok Destruction v1
 Gorodok Insurgency v1
 Gorodok Invasion v1
@@ -64,6 +81,7 @@ Kamdesh Skirmish v1
 Kamdesh TC v1
 Kamdesh TC v2
 Kohat AAS v1
+Kohat AAS v2
 Kohat Insurgency v1
 Kohat Invasion v1
 Kohat Invasion v2
@@ -80,12 +98,20 @@ Kokan RAAS v1
 Kokan RAAS v2
 Kokan Skirmish v1
 Kokan TC v1
-Logar AAS v1
-Logar AAS v2
-Logar Insurgency v1
-Logar RAAS v1
-Logar Skirmish v1
-Logar TC v1
+Lashkar Valley AAS v1
+Lashkar Valley AAS v2
+Lashkar Valley Insurgency v1
+Lashkar Valley Invasion v1
+Lashkar Valley RAAS v1
+Lashkar Valley Skirmish v1
+Lashkar Valley TC v1
+Lashkar Valley TC v2
+Logar Valley AAS v1
+Logar Valley AAS v2
+Logar Valley Insurgency v1
+Logar Valley RAAS v1
+Logar Valley Skirmish v1
+Logar Valley TC v1
 Mestia AAS v1
 Mestia Invasion v1
 Mestia Invasion v2
@@ -106,6 +132,7 @@ Narva Invasion v1
 Narva Invasion v2
 Narva RAAS v1
 Narva Skirmish v1
+Narva TA v1
 Narva TC v1
 Narva TC v2
 Skorpo AAS v1
@@ -120,13 +147,14 @@ Skorpo TC v1
 Skorpo TC v2
 Skorpo TC v3
 Sumari AAS v1
-Sumari Invasion v1
 Sumari Insurgency v1
+Sumari Invasion v1
 Sumari RAAS v1
 Sumari RAAS v2
 Sumari Skirmish v1
 Sumari TC v1
 Tallil Outskirts AAS v1
+Tallil Outskirts AAS v2
 Tallil Outskirts Invasion v1
 Tallil Outskirts Invasion v2
 Tallil Outskirts Invasion v3
@@ -139,6 +167,7 @@ Tallil Outskirts Skirmish v2
 Tallil Outskirts Skirmish v3
 Tallil Outskirts Tanks v1
 Tallil Outskirts Tanks v2
+Tallil Outskirts TA v1
 Tallil Outskirts TC v1
 Yehorivka AAS v1
 Yehorivka AAS v2
@@ -153,19 +182,36 @@ Yehorivka RAAS v5
 Yehorivka Skirmish v1
 Yehorivka Skirmish v2
 Yehorivka Skirmish v3
+Yehorivka TA v1
 Yehorivka TC v1
 Yehorivka TC v2
 CAF_Al_Basrah_Invasion_v1
+CAF_Al_Basrah_Invasion_v2
+CAF_Belaya_AAS_v1
+CAF_Belaya_RAAS_v1
+CAF_Belaya_RAAS_v2
+CAF_Chora_AAS_v1
+CAF_Chora_RAAS_v1
+CAF_Fallujah_Invasion_v1
+CAF_Fallujah_RAAS_v1
+CAF_Fools_Road_RAAS_v1
+CAF_Gorodok_AAS_v1
 CAF_Gorodok_Invasion_v1
 CAF_Gorodok_RAAS_v1
 CAF_Gorodok_RAAS_v2
 CAF_Gorodok_TC_v1
-CAF_Jensen's_Range_Training_v4
+CAF_Jensens_Range_v4
 CAF_Kamdesh_Invasion_v1
 CAF_Kamdesh_RAAS_v1
 CAF_Kamdesh_TC_v1
 CAF_Kohat_Invasion_v1
+CAF_Kokan_RAAS_v1
+CAF_Lashkar_Valley_Invasion_v1
+CAF_Lashkar_Valley_RAAS_v1
+CAF_Lashkar_Valley_TC_v1
+CAF_Logar_Valley_RAAS_v1
 CAF_Manic-5_AAS_v1
+CAF_Manic-5_AAS_v2
 CAF_Manic-5_Invasion_v1
 CAF_Manic-5_Invasion_v2
 CAF_Manic-5_RAAS_v1
@@ -176,11 +222,17 @@ CAF_Manic-5_Skirmish_v1
 CAF_Manic-5_Skirmish_v2
 CAF_Manic-5_TC_v1
 CAF_Mestia_RAAS_v1
+CAF_Mutaha_AAS_v1
 CAF_Mutaha_RAAS_v1
+CAF_Mutaha_RAAS_v2
+CAF_Nanisivik_AAS_v1
 CAF_Nanisivik_Invasion_v1
 CAF_Nanisivik_RAAS_v1
 CAF_Narva_RAAS_v1
+CAF_Skorpo_RAAS_v1
+CAF_Sumari_AAS_v1
 CAF_Tallil_Outskirts_RAAS_v1
+CAF_Tallil_Outskirts_RAAS_v2
 CAF_Yehorivka_Invasion_v1
 CAF_Yehorivka_RAAS_v1
-CAF_Yehorivka_TC_v1
+CAF_Yehorivka_TC_V1
