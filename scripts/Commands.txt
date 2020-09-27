@@ -2,6 +2,7 @@ bloq mayus
 f12
 
 r.SetRes 3480x2160f
+r.SetRes 7680x4320f
 r.SetRes 1920x1080f
 
 

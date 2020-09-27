@@ -2,6 +2,31 @@ body
 {
 	background-color: #010101;
 }
+.top_links
+{
+	padding: 20px 20px 0px 0px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: right;
+	font-family: "Roboto Condensed", sans-serif;
+	color: white;
+}
+.top_links img
+{
+	vertical-align: middle;
+	height: 20px;
+	width: auto;
+}
+.top_links p
+{
+	padding: 10px 0px;
+}
+
+.top_links p a
+{
+	color: white;
+}
 header
 {
 	width: 100%;
@@ -244,22 +269,3 @@ section div h3
 	padding-left: 10px;
 }
 
-#top_links
-{
-	padding: 20px 20px 0px 0px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	text-align: right;
-	font-family: "Roboto Condensed", sans-serif;
-}
-#top_links img
-{
-	vertical-align: middle;
-	height: 20px;
-	width: auto;
-}
-#top_links a
-{
-	color: white;
-}
