@@ -238,7 +238,7 @@ var map_dict = {
 	"Yehorivka_TC_v2": { "LayerInfo": { "Weather": "Partial Clouds Mid Day", "RaasType": "", "Commander": true, "Flags": 67 }, "Team_1": { "Name": "USA", "Tickets": 450, "Vehicles": [] }, "Team_2": { "Name": "RUS", "Tickets": 450, "Vehicles": [] } },
 	"CAF_Yehorivka_Invasion_v1": { "LayerInfo": { "Weather": "Sunrise", "RaasType": "Random", "Commander": true, "Flags": 5 }, "Team_1": { "Name": "CAF", "Tickets": 200, "Vehicles": [] }, "Team_2": { "Name": "MIL", "Tickets": 900, "Vehicles": [] } },
 	"CAF_Yehorivka_RAAS_v1": { "LayerInfo": { "Weather": "Mixed Clouds Mid Day", "RaasType": "Random", "Commander": true, "Flags": 7 }, "Team_1": { "Name": "CAF", "Tickets": 350, "Vehicles": [] }, "Team_2": { "Name": "RUS", "Tickets": 350, "Vehicles": [] } },
-	"CAF_Yehorivka_TC_V1": { "LayerInfo": { "Weather": "Mixed Clouds Mid Day", "RaasType": "", "Commander": true, "Flags": 67 }, "Team_1": { "Name": "CAF", "Tickets": 450, "Vehicles": [] }, "Team_2": { "Name": "RUS", "Tickets": 450, "Vehicles": [] } },
+	"CAF_Yehorivka_TC_v1": { "LayerInfo": { "Weather": "Mixed Clouds Mid Day", "RaasType": "", "Commander": true, "Flags": 67 }, "Team_1": { "Name": "CAF", "Tickets": 450, "Vehicles": [] }, "Team_2": { "Name": "RUS", "Tickets": 450, "Vehicles": [] } },
 }
 
 function view_vehicles (map)
