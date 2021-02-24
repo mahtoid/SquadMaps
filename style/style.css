@@ -45,6 +45,10 @@ section
 .headers_section
 {
 	text-align: center;
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	box-shadow: 0 0 16px black;
 }
 section .headers
 {
