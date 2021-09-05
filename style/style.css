@@ -1,6 +1,11 @@
 body
 {
 	background-color: #010101;
+	color: #FFFFFF;
+}
+a
+{
+	color: #FFFFFF;
 }
 .top_links
 {
@@ -10,7 +15,6 @@ body
 	right: 0;
 	text-align: right;
 	font-family: "Roboto Condensed", sans-serif;
-	color: white;
 }
 .top_links img
 {
@@ -22,15 +26,9 @@ body
 {
 	padding: 10px 0px;
 }
-
-.top_links p a
-{
-	color: white;
-}
 header
 {
 	width: 100%;
-	color: #FFFFFF;
 	font: normal normal 10em "Anton", sans-serif;
 	margin: 20px auto;
 	text-align: center;
@@ -50,14 +48,13 @@ section
 	top: 0;
 	box-shadow: 0 0 16px black;
 }
-section .headers
+.headers
 {
-	color: #FFFFFF;
 	text-decoration: none;
 	font: normal normal 700 1em "Roboto Condensed", sans-serif;
 	padding: 3px;
 }
-section .headers:hover
+.headers:hover
 {
 	color: #FFC200;
 	text-decoration: none;
@@ -67,7 +64,6 @@ section .headers:hover
 section h2
 {
 	border-bottom: 2px solid #FFC200;
-	color: #FFFFFF;
 	font: normal normal 700 3em "Roboto Condensed", sans-serif;
 	margin-bottom: 10px;
 }
@@ -85,7 +81,6 @@ section div img
 }
 section div h3
 {
-	color: #FFFFFF;
 	font: normal normal 700 1.5em "Roboto Condensed", sans-serif;
 	padding: 4px 0px 0px 15px;
 	float: left;
@@ -117,80 +112,136 @@ section div h3
 	filter: brightness(0);
 }
 
-#modal_background
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal_background
 {
 	display: none;
 	position: fixed;
 	z-index: 1;
-	left: 0;
 	top: 0;
-	width: 100%;
+	left: 0;
 	height: 100%;
+	width: 100%;
 	overflow: auto;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: #000000CC;
+	backdrop-filter: blur(2px);
 }
 .modal_content
 {
-	background-color: #222222;
+	display: flex;
+	flex-direction: column;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 90%;
 	height: 90%;
+	width: 90%;
+	transform: translate(-50%, -50%);
 	overflow-y: hidden;
+	backdrop-filter: blur(20px);
+	background-color: #00000066;
 	border: 2px solid #FFC200;
-	display: flex;
-	flex-direction: column;
 }
-.full_height
+.modal_top
+{
+	padding: 10px 0px ;
+	text-align: center;
+	border-bottom: 2px solid #FFC200;
+}
+.modal_top_sides
+{
+	width: 20%;
+	float: left;
+}
+.modal_squadlanes_link
+{
+	margin-top: 14px;
+	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
+}
+.modal_top_center
+{
+	font: normal normal 700 3em "Roboto Condensed", sans-serif;
+	width: 60%;
+	float: left;
+}
+.modal_team_name
+{
+	display: inline-block;
+	font: normal normal 700 3em "Roboto Condensed", sans-serif;
+	padding-left: 10px;
+	vertical-align: super;
+}
+
+.modal_bottom
 {
 	flex-grow: 1;
 }
-.modal_content h2
+.modal_side
 {
-	border-bottom: 2px solid #FFC200;
-	color: #FFFFFF;
-	font: normal normal 700 3em "Roboto Condensed", sans-serif;
-	padding: 10px 0px;
-	text-align: center;
-}
-.modal_side_panel
-{
-	width: 25%;
+	width: 33%;
 	height: 100%;
 	float: left;
 	overflow: hidden;
 	box-sizing: border-box;
-
+	
 	padding: 10px 20px;
 }
-.modal_center_panel
+.modal_vertical_top
+{
+	border-bottom: 1px solid white;
+	overflow: visible;
+	width: 100%;
+	height: 60px;
+}
+.modal_vertical_bottom
+{
+	overflow: visible;
+	padding-top: 5px;
+	margin-top: 5px;
+	width: 100%;
+	height: 76%;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	align-content: center;
+
+}
+.modal_center
 {
 	border-left: 2px solid #FFC200;
 	border-right: 2px solid #FFC200;
-	width: 50%;
+	width: 34%;
 	height: 100%;
 	float: left;
 	overflow: hidden;
 	box-sizing: border-box;
+	padding: 10px 20px;
 }
-.modal_center_panel_top
-{
-	width: 100%;
-	height: 10%;
-	float: left;
-	color: #FFFFFF;
-	padding: 24px 0px;
-	box-sizing: border-box;
-}
-.modal_center_panel_top div
+.modal_vertical_top div
 {
 	text-align: center;
 	display: block;
 	width: 33%;
 	float: left;
+	margin-top: 10px;
 }
 .modal_label
 {
@@ -202,44 +253,17 @@ section div h3
 	display: inline;
 	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
 }
-.modal_center_panel_bottom
-{
-	width: 100%;
-	height: 87%;
-	float: left;
-	overflow: hidden;
-	box-sizing: border-box;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	align-content: center;
-}
-.modal_flag
+.modal_team_flag
 {
 	display: inline-block;
 	max-height: 3em;
 }
-.modal_team_name
-{
-	display: inline-block;
-	color: #FFFFFF;
-	font: normal normal 700 3em "Roboto Condensed", sans-serif;
-	padding-left: 10px;
-	vertical-align: super;
-}
 .modal_team_tickets
 {
 	display: inline-block;
-	color: #FFFFFF;
 	font: normal normal 700 2em "Roboto Condensed", sans-serif;
 	padding-left: 10px;
 	vertical-align: super;
-}
-.modal_team_vehicles
-{
-	overflow: visible;
-	border-top: 1px solid white;
-	padding-top: 5px;
 }
 .modal_content li
 {
@@ -250,7 +274,6 @@ section div h3
 	display: inline-block;
 	text-align: right;
 	min-width: 1em;
-	color: #FFFFFF;
 	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
 }
 .modal_content li img
@@ -262,14 +285,12 @@ section div h3
 .modal_content li h6
 {
 	display: inline-block;
-	color: #FFFFFF;
 	font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
 	padding-left: 5px;
 	padding-bottom: 5px;
 }
 .modal_content li small
 {
-	color: #FFFFFF;
 	font: normal normal 300 0.8em "Roboto Condensed", sans-serif;
 	padding-left: 10px;
 }
