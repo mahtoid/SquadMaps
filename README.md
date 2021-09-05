@@ -34,6 +34,8 @@ You can use the object inside the modal.js, for example to make your own visual 
 ## Credits
 SquadMaps would not be possible without the support of the contributors.
 
+Map data obtained from https://github.com/Squad-Wiki-Editorial/squad-wiki-pipeline-map-data
+
 <br>
 
 ## License
