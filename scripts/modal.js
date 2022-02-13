@@ -40,8 +40,7 @@ function view_vehicles (map)
 	document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.rawName + ".jpg";
 	map.team1.commander == "true" ? document.getElementById("modal_value_commander").innerHTML = "Yes" : document.getElementById("modal_value_commander").innerHTML = "No";
 	document.getElementById("modal_value_number_of_flags").innerHTML = map.capturePoints;
-	// TODO Fix weather
-	// document.getElementById("modal_value_weather").innerHTML = map_dict[map]["LayerInfo"]["Weather"];
+	document.getElementById("modal_value_weather").innerHTML = map.lighting;
 
 	switch (map.team1.faction)
 	{
