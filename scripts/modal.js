@@ -46,29 +46,29 @@ function view_vehicles (map)
 	{
 		case "Canadian Army":
 			document.getElementById("modal_team_1_name").innerHTML = "CAF";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_CAF.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_CAF.webp"; break;
 		case "British Army":
 			document.getElementById("modal_team_1_name").innerHTML = "GB";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_GB.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_GB.webp"; break;
 		case "Insurgent Forces":
 			document.getElementById("modal_team_1_name").innerHTML = "INS";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_INS.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_INS.webp"; break;
 		case "Irregular Militia Forces":
 			document.getElementById("modal_team_1_name").innerHTML = "MIL";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_MIL.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_MIL.webp"; break;
 		case "Russian Ground Forces":
 			document.getElementById("modal_team_1_name").innerHTML = "RUS";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_RUS.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_RUS.webp"; break;
 		case "United States Army":
 			document.getElementById("modal_team_1_name").innerHTML = "USA";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_USA.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_USA.webp"; break;
 		case "Middle Eastern Alliance":
 			document.getElementById("modal_team_1_name").innerHTML = "MEA";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_MEA.png"; break;
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_MEA.webp"; break;
 		default:
 			console.error("Could not read team name: " + map.team1.faction);
 			document.getElementById("modal_team_1_name").innerHTML = "MEA";
-			document.getElementById("modal_team_1_flag").src = "img/icons/flag_USA.png";
+			document.getElementById("modal_team_1_flag").src = "img/icons/flag_USA.webp";
 			break;
 	}
 
@@ -76,29 +76,29 @@ function view_vehicles (map)
 	{
 		case "Canadian Army":
 			document.getElementById("modal_team_2_name").innerHTML = "CAF";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_CAF.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_CAF.webp"; break;
 		case "British Army":
 			document.getElementById("modal_team_2_name").innerHTML = "GB";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_GB.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_GB.webp"; break;
 		case "Insurgent Forces":
 			document.getElementById("modal_team_2_name").innerHTML = "INS";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_INS.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_INS.webp"; break;
 		case "Irregular Militia Forces":
 			document.getElementById("modal_team_2_name").innerHTML = "MIL";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_MIL.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_MIL.webp"; break;
 		case "Russian Ground Forces":
 			document.getElementById("modal_team_2_name").innerHTML = "RUS";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_RUS.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_RUS.webp"; break;
 		case "United States Army":
 			document.getElementById("modal_team_2_name").innerHTML = "USA";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_USA.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_USA.webp"; break;
 		case "Middle Eastern Alliance":
 			document.getElementById("modal_team_2_name").innerHTML = "MEA";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_MEA.png"; break;
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_MEA.webp"; break;
 		default:
 			console.error("Could not read team name: " + map.team2.faction);
 			document.getElementById("modal_team_2_name").innerHTML = "MEA";
-			document.getElementById("modal_team_2_flag").src = "img/icons/flag_USA.png";
+			document.getElementById("modal_team_2_flag").src = "img/icons/flag_USA.webp";
 			break;
 	}
 
@@ -112,7 +112,7 @@ function view_vehicles (map)
 		var vehicle_delay = document.createElement("small");
 
 		vehicle_amount.innerHTML = vehicle.count;
-		vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+		vehicle_img.src = "./img/icons/" + vehicle.icon + ".webp";
 		vehicle_name.innerHTML = vehicle.type;
 		vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
 
@@ -134,7 +134,7 @@ function view_vehicles (map)
 		var vehicle_delay = document.createElement("small");
 
 		vehicle_amount.innerHTML = vehicle.count;
-		vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+		vehicle_img.src = "./img/icons/" + vehicle.icon + ".webp";
 		vehicle_name.innerHTML = vehicle.type;
 		vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
 

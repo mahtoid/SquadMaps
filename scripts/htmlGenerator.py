@@ -47,7 +47,7 @@ with open('output.html', 'w') as outputFile:
                     key, '').replace('  ', ' ').strip()
                 useLazy = ' loading="lazy"' if key != "Anvil" else ""
                 # Watch out for CAF layers cause the names are inconsistent there...
-                element = "\t<div><a href=\"img/maps/full_size/{line}.jpg\"><picture><source srcset=\"img/maps/webp/{line}.webp\" type=\"image/webp\"><source srcset=\"img/maps/thumbnails/{line}.jpg\" type=\"image/jpeg\"><img src=\"img/maps/thumbnails/{line}.jpg\" alt=\"{mapName}\"{lazy}></picture></a><h3>{layerName}</h3><a class=\"vehicles\" onclick=\"view_vehicles('{line}')\"><img src=\"img/icons/vehicles.png\" alt=\"Vehicles\"{lazy}></a></div>\n".format(
+                element = "\t<div><a href=\"img/maps/full_size/{line}.jpg\"><picture><source srcset=\"img/maps/webp/{line}.webp\" type=\"image/webp\"><source srcset=\"img/maps/thumbnails/{line}.jpg\" type=\"image/jpeg\"><img src=\"img/maps/thumbnails/{line}.jpg\" alt=\"{mapName}\"{lazy}></picture></a><h3>{layerName}</h3><a class=\"vehicles\" onclick=\"view_vehicles('{line}')\"><picture><source srcset=\"img/icons/vehicles.webp\" type=\"image/webp\"><source srcset=\"img/icons/vehicles.png\" type=\"image/png\"><img src=\"img/icons/vehicles.png\" alt=\"Vehicles\"{lazy}></picture></a></div>\n".format(
                     mapName=MapName, layerName=LayerName, line=line, lazy=useLazy)
                 outputFile.write(element)
         outputFile.write("""</section>\n""")
