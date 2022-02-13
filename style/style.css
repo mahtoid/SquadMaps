@@ -58,7 +58,7 @@ section h2 {
 }
 .map-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  grid-template-columns: repeat(4, minmax(256px, 1fr));
   grid-gap: 8px;
 }
 section div img {
