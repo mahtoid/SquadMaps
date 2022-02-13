@@ -6,6 +6,6 @@ with open('layers.txt') as layersFile:
 
 i = 1
 for line in lines:
-    os.rename('C:\Git\SquadMaps\img\maps\original\\'+str(i).zfill(3) +
-              '.jpg', 'C:\Git\SquadMaps\img\maps\original\\'+line+'.jpg')
+    os.rename('C:\Git\SquadMaps\img\maps\original_numbered\\'+str(i).zfill(3) +
+              '.jpg', 'C:\Git\SquadMaps\img\maps\original_named\\'+line+'.jpg')
     i+=1

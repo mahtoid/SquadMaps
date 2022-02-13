@@ -43,5 +43,17 @@ with open('output.html', 'w') as outputFile:
             if key in line:
                 LayerName = line.replace('_', ' ').replace(key, '').replace('  ', ' ').strip()
                 # Watch out for CAF layers cause the names are inconsistent there...
-                outputFile.write("""\t<div><a href="img/maps/full_size/""" + line + """.jpg"><img src="img/maps/thumbnails/""" + line + """.jpg"></a><h3>""" + LayerName + """</h3><a class="vehicles" href="javascript:view_vehicles('""" + line + """');"><img src="img/icons/vehicles.png"></a></div>\n""")
+                outputFile.write("""\t<div>""" +
+                                 """<a href="img/maps/full_size/""" + line + """.jpg">""" +
+                                 """<picture>"""
+                                 """<source srcset="img/maps/webp/"""+line+""".webp" type="image/webp">"""
+                                 """<source srcset="img/maps/thumbnails/"""+line+""".jpg" type="image/jpeg">"""
+                                 """<img src="img/maps/thumbnails/""" + line + """.jpg">""" +
+                                 """</picture>"""
+                                 """</a>""" +
+                                 """<h3>""" + LayerName + """</h3>""" +
+                                 """<a class="vehicles" href="javascript:view_vehicles('""" + line + """');">""" +
+                                 """<img src="img/icons/vehicles.png">""" +
+                                 """</a>""" +
+                                 """</div>\n""")
         outputFile.write("""</section>\n""")
