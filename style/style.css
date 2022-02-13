@@ -112,6 +112,10 @@ section div h3
 	width: 18%;
 	box-sizing: border-box;
 	margin-top: 4px;
+	border: none;
+    padding: 0;
+    outline: none;
+	cursor: pointer;
 }
 .vehicles:hover
 {
