@@ -67,17 +67,16 @@ section h2
 	font: normal normal 700 3em "Roboto Condensed", sans-serif;
 	margin-bottom: 10px;
 }
-section div
+.map-grid
 {
-	float: left;
-	width: 16.666%;
-	text-align: center;
-	padding-bottom: 20px;
-	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+	grid-gap: 8px;
+
 }
 section div img
 {
-	width: 95%;
+	width: 100%;
 	height: auto;
 }
 section div h3
