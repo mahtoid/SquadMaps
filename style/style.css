@@ -5,6 +5,17 @@ body {
 a {
   color: #ffffff;
 }
+header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.top_links_left {
+  padding: 80px 0px 0px 80px;
+  position: absolute;
+}
+.top_links_left img {
+  width: 100px;
+}
 .top_links {
   padding: 20px 20px 0px 0px;
   position: absolute;
@@ -253,7 +264,7 @@ section div h3 {
 
 @media screen and (max-width: 1000px) {
   header {
-	margin-top: 96px;
+    margin-top: 96px;
     font-size: 4rem;
   }
 }

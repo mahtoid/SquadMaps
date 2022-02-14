@@ -25,7 +25,7 @@ layersDict = {
     "Yehorivka": "Yehorivka"
 }
 
-with open('layers.txt') as layersFile:
+with open('layers_sm.txt') as layersFile:
     lines = layersFile.readlines()
     lines = [line.rstrip() for line in lines]
 
