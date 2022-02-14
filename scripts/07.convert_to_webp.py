@@ -28,4 +28,4 @@ paths = Path(smThumbnailPath).glob("**/*.jpg")
 for path in paths:
     print(path)
     image = Image.open(path)
-    image.save("{}\\webp\\{}.webp".format(mapsPath, path.stem), format="webp")
+    image.save("{}\\webp\\{}.webp".format(smMapsPath, path.stem), format="webp")
