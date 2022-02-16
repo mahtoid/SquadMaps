@@ -69,7 +69,7 @@ section h2 {
 }
 .map-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(256px, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   grid-gap: 8px;
 }
 section div img {
@@ -267,4 +267,15 @@ section div h3 {
     margin-top: 96px;
     font-size: 4rem;
   }
+
+  .map-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
 }
+
+@media screen and (max-width: 600px) {
+  .map-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+} 
