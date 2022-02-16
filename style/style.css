@@ -279,3 +279,9 @@ section div h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 } 
+
+@media screen and (min-width: 3000px) {
+  .map-grid {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+}
