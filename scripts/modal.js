@@ -48,8 +48,8 @@ function view_vehicles(map)
     document.getElementById("modal_layer_name").innerHTML = map.Name;
     document.getElementById("modal_team_1_tickets").innerHTML = map.team1.tickets + " tickets";
     document.getElementById("modal_team_2_tickets").innerHTML = map.team2.tickets + " tickets";
-    document.getElementById("map").style.backgroundImage = "url(img/maps/full_size/" + map.rawName + ".jpg)";
-    document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.rawName + ".jpg";
+    document.getElementById("map").style.backgroundImage = "url(img/maps/full_size/" + map.levelName + ".jpg)";
+    document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.levelName + ".jpg";
     map.team1.commander == "true" ? document.getElementById("modal_value_commander").innerHTML = "Yes" : document.getElementById("modal_value_commander").innerHTML = "No";
     document.getElementById("modal_value_number_of_flags").innerHTML = map.capturePoints;
     document.getElementById("modal_value_weather").innerHTML = map.lighting;
