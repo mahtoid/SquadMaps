@@ -35572,7 +35572,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v1",
+            "layerVersion": "v01",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -36003,7 +36003,7 @@ var finished = {
             "capturePoints": "6",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v2",
+            "layerVersion": "v02",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -36406,7 +36406,7 @@ var finished = {
             "capturePoints": "5",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v3",
+            "layerVersion": "v03",
             "mapSize": "0.9x2.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -36647,7 +36647,7 @@ var finished = {
             "capturePoints": "5",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v4",
+            "layerVersion": "v04",
             "mapSize": "2.6x2.6 km",
             "mapSizeType": "Playable Area"
         },
@@ -37070,7 +37070,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v5",
+            "layerVersion": "v05",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -37512,7 +37512,7 @@ var finished = {
             "capturePoints": "26",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v6",
+            "layerVersion": "v06",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -37984,7 +37984,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v7",
+            "layerVersion": "v07",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -38474,7 +38474,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v8",
+            "layerVersion": "v08",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -38932,7 +38932,7 @@ var finished = {
             "capturePoints": "6",
             "mapName": "Gorodok",
             "gamemode": "RAAS",
-            "layerVersion": "v9",
+            "layerVersion": "v09",
             "mapSize": "2.0x1.9 km",
             "mapSizeType": "Playable Area"
         },
@@ -102537,7 +102537,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v1",
+            "layerVersion": "v01",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -102778,7 +102778,7 @@ var finished = {
             "capturePoints": "5",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v2",
+            "layerVersion": "v02",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -103115,7 +103115,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v3",
+            "layerVersion": "v03",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -103374,7 +103374,7 @@ var finished = {
             "capturePoints": "5",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v4",
+            "layerVersion": "v04",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -103678,7 +103678,7 @@ var finished = {
             "capturePoints": "5",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v5",
+            "layerVersion": "v05",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -104013,7 +104013,7 @@ var finished = {
             "capturePoints": "27",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v6",
+            "layerVersion": "v06",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -104348,7 +104348,7 @@ var finished = {
             "capturePoints": "27",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v7",
+            "layerVersion": "v07",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -104692,7 +104692,7 @@ var finished = {
             "capturePoints": "27",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v8",
+            "layerVersion": "v08",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
@@ -105119,7 +105119,7 @@ var finished = {
             "capturePoints": "7",
             "mapName": "Yehorivka",
             "gamemode": "RAAS",
-            "layerVersion": "v9",
+            "layerVersion": "v09",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area"
         },
