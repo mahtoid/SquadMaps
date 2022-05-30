@@ -10,7 +10,7 @@ function view_vehicles(map)
         mapFound = false;
         for (var i = 0; i < finished.Maps.length; i++)
         {
-            if (finished.Maps[i].levelName.toLowerCase() == map.toLowerCase())
+            if (finished.Maps[i].rawName.toLowerCase() == map.toLowerCase())
             {
                 map = finished.Maps[i];
                 mapFound = true;
