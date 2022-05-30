@@ -2,7 +2,7 @@ import os
 
 layersDict = {
     "Anvil": "Anvil",
-    "AlBasrah": "Al Basrah",
+    "Albasrah": "Al Basrah",
     "Belaya": "Belaya Pass",
     "Chora": "Chora",
     "Fallujah": "Fallujah",
@@ -25,31 +25,31 @@ layersDict = {
     "Yehorivka": "Yehorivka"
 }
 
-with open('layers_sm.txt') as layersFile:
+with open('layers.txt') as layersFile:
     lines = layersFile.readlines()
     lines = [line.rstrip() for line in lines]
 
-# for line in lines:
-    #
 with open('output.html', 'w') as outputFile:
+
     outputFile.write("""<section class="headers_section">\n""")
+
     for key in layersDict.keys():
-        outputFile.write("""\t<a class="headers" href="#""" +
-                         key + """">""" + layersDict[key] + """</a>\n""")
+        outputFile.write("""\t<a class="headers" href="#""" + key + """">""" + layersDict[key] + """</a>\n""")
+
     outputFile.write("""</section>\n""")
+
     for key in layersDict.keys():
         outputFile.write("""<section id=""" + key + """>\n""")
+
         outputFile.write("""\t<h2>""" + layersDict[key] + """</h2>\n""")
+
         outputFile.write("""\t<div class="map-grid">\n""")
+
         for line in lines:
             if key in line:
-                MapName = line.replace("_", " ")
-                LayerName = MapName.replace(
-                    key, '').replace('  ', ' ').strip()
-                useLazy = ' loading="lazy"' if key != "Anvil" else ""
-                # Watch out for CAF layers cause the names are inconsistent there...
-                element = "\t<div><a href=\"img/maps/full_size/{line}.jpg\"><picture><source srcset=\"img/maps/webp/{line}.webp\" type=\"image/webp\"><source srcset=\"img/maps/thumbnails/{line}.jpg\" type=\"image/jpeg\"><img src=\"img/maps/thumbnails/{line}.jpg\" alt=\"{mapName}\"{lazy}></picture></a><h3>{layerName}</h3><button class=\"vehicles\" onclick=\"view_vehicles('{line}')\"><picture><source srcset=\"img/icons/vehicles.webp\" type=\"image/webp\"><source srcset=\"img/icons/vehicles.png\" type=\"image/png\"><img src=\"img/icons/vehicles.png\" alt=\"Vehicles\"{lazy}></picture></button></div>\n".format(
-                    mapName=MapName, layerName=LayerName, line=line, lazy=useLazy)
-                outputFile.write(element)
+                LayerName = line.replace("_", " ").replace(key, '').replace('  ', ' ').strip()
+                outputFile.write("""\t<div><a href=\"img/maps/full_size/""" + line + """.jpg\"><img src=\"img/maps/thumbnails/""" + line + """.jpg\"></a><h3>""" + LayerName + """</h3><a class=\"vehicles\" href=\"javascript:view_vehicles('""" + line + """');\"><img src=\"img/icons/vehicles.png\"></a></div>\n""")
+
         outputFile.write("""\t</div>\n""")
+    
         outputFile.write("""</section>\n""")
