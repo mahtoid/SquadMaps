@@ -2,6 +2,9 @@ import pyautogui
 import time
 import keyboard
 
+# r.setres 1920x1080w
+# r.setres 3840x2160f
+
 pyautogui.KEYBOARD_KEYS
 
 print('Press F10 once Squad is focused')

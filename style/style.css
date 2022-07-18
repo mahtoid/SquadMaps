@@ -87,6 +87,38 @@ section h2 {
     grid-gap: 8px;
 }
 
+.map-grid div a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.map-grid div a div
+{
+    position: absolute;
+    bottom: 0px;
+}
+
+.flags
+{
+}
+
+.flags img
+{
+    width: 25%;
+}
+
+.flags img:first-child
+{
+    float: left;
+}
+
+.flags img:last-child
+{
+    float: right;
+}
+
 section div img {
     width: 100%;
     height: auto;
@@ -224,7 +256,7 @@ section div h3 {
     width: 100%;
     height: 76%;
     float: left;
-    overflow: hidden;
+    overflow: visible;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: contain;

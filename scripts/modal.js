@@ -48,8 +48,8 @@ function view_vehicles(map)
     document.getElementById("modal_layer_name").innerHTML = map.Name;
     document.getElementById("modal_team_1_tickets").innerHTML = map.team1.tickets + " tickets";
     document.getElementById("modal_team_2_tickets").innerHTML = map.team2.tickets + " tickets";
-    document.getElementById("map").style.backgroundImage = "url(img/maps/full_size/" + map.levelName + ".jpg)";
-    document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.levelName + ".jpg";
+    document.getElementById("map").style.backgroundImage = "url(img/maps/full_size/" + map.rawName + ".jpg)";
+    document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.rawName + ".jpg";
     map.team1.commander == "true" ? document.getElementById("modal_value_commander").innerHTML = "Yes" : document.getElementById("modal_value_commander").innerHTML = "No";
     document.getElementById("modal_value_number_of_flags").innerHTML = map.capturePoints;
     document.getElementById("modal_value_weather").innerHTML = map.lighting;
@@ -74,12 +74,17 @@ function view_vehicles(map)
         case "United States Army":
             document.getElementById("modal_team_1_name").innerHTML = "USA";
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_USA.png"; break;
+        case "United States Marine Corps":
+            document.getElementById("modal_team_1_name").innerHTML = "USMC";
+            document.getElementById("modal_team_1_flag").src = "img/icons/flag_USMC.png"; break;
         case "Middle Eastern Alliance":
             document.getElementById("modal_team_1_name").innerHTML = "MEA";
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_MEA.png"; break;
         case "Australian Defence Force":
             document.getElementById("modal_team_1_name").innerHTML = "AUS";
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_AUS.png"; break;
+
+
 
         default:
             console.error("Could not read team name: " + map.team1.faction);
@@ -108,6 +113,9 @@ function view_vehicles(map)
         case "United States Army":
             document.getElementById("modal_team_2_name").innerHTML = "USA";
             document.getElementById("modal_team_2_flag").src = "img/icons/flag_USA.png"; break;
+        case "United States Marine Corps":
+            document.getElementById("modal_team_1_name").innerHTML = "USMC";
+            document.getElementById("modal_team_1_flag").src = "img/icons/flag_USMC.png"; break;
         case "Middle Eastern Alliance":
             document.getElementById("modal_team_2_name").innerHTML = "MEA";
             document.getElementById("modal_team_2_flag").src = "img/icons/flag_MEA.png"; break;
