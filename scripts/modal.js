@@ -24,6 +24,56 @@ function view_vehicles(map)
         }
     }
 
+    document.getElementById("layer_name").value = map.rawName;
+    var team1, team2;
+    switch (map.team1.faction)
+    {
+        case "Canadian Army":
+            team1 = "CAF"; break;
+        case "British Army":
+            team1 = "GB"; break;
+        case "Insurgent Forces":
+            team1 = "INS"; break;
+        case "Irregular Militia Forces":
+            team1 = "MIL"; break;
+        case "Russian Ground Forces":
+            team1 = "RUS"; break;
+        case "United States Army":
+            team1 = "USA"; break;
+        case "United States Marine Corps":
+            team1 = "USMC"; break;
+        case "Middle Eastern Alliance":
+            team1 = "MEA"; break;
+        case "Australian Defence Force":
+            team1 = "AUS"; break;
+        default:
+            team1 = "---"; break;
+    }
+    switch (map.team2.faction)
+    {
+        case "Canadian Army":
+            team2 = "CAF"; break;
+        case "British Army":
+            team2 = "GB"; break;
+        case "Insurgent Forces":
+            team2 = "INS"; break;
+        case "Irregular Militia Forces":
+            team2 = "MIL"; break;
+        case "Russian Ground Forces":
+            team2 = "RUS"; break;
+        case "United States Army":
+            team2 = "USA"; break;
+        case "United States Marine Corps":
+            team2 = "USMC"; break;
+        case "Middle Eastern Alliance":
+            team2 = "MEA"; break;
+        case "Australian Defence Force":
+            team2 = "AUS"; break;
+        default:
+            team2 = "---"; break;
+    }
+    document.getElementById("layer_info").value = map.Name + " (" + team1 + " vs " + team2 + ")";
+
 
     if (map.type == "RAASLane Graph" || map.type == "RAASGraph" || map.type == "Invasion Random Graph")
     {
@@ -207,3 +257,19 @@ document.onkeydown = function (event)
         }
     }
 };
+
+function copyLayerName()
+{
+    var layerNameInput = document.getElementById("layer_name");
+    layerNameInput.select();
+    layerNameInput.setSelectionRange(0,99999);
+    navigator.clipboard.writeText(layerNameInput.value);
+}
+
+function copyLayerInfo()
+{
+    var layerInfoInput = document.getElementById("layer_info");
+    layerInfoInput.select();
+    layerInfoInput.setSelectionRange(0,99999);
+    navigator.clipboard.writeText(layerInfoInput.value);
+}

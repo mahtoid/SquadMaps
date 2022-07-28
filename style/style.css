@@ -210,6 +210,24 @@ section div h3 {
     float: left;
 }
 
+.copy_to_clipboard {
+
+}
+
+.copy_to_clipboard input {
+    width: 55%;
+    margin: 3px 0px;
+    border: none;
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.copy_to_clipboard button {
+    width: 39%;
+    margin: 3px 0px;
+    /* border: none; */
+}
+
 .modal_squadlanes_link {
     margin-top: 14px;
     font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
