@@ -231,7 +231,7 @@ section div h3
 	border-bottom: 1px solid white;
 	overflow: visible;
 	width: 100%;
-	height: 54px;
+	height: fit-content;
 }
 .modal_vertical_bottom
 {
