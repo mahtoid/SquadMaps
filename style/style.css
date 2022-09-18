@@ -194,7 +194,6 @@ section div h3 {
     width: 90%;
     transform: translate(-50%, -50%);
     overflow-y: hidden;
-    backdrop-filter: blur(20px);
     background-color: #000000cc;
     border: 2px solid #ffc200;
 }
