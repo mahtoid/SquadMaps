@@ -135,7 +135,6 @@ function view_vehicles(map)
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_AUS.png"; break;
 
 
-
         default:
             console.error("Could not read team name: " + map.team1.faction);
             document.getElementById("modal_team_1_name").innerHTML = "---";
@@ -190,7 +189,11 @@ function view_vehicles(map)
         var vehicle_delay = document.createElement("small");
 
         vehicle_amount.innerHTML = vehicle.count;
-        vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+
+        if (vehicle.icon) { // this is to handle Fallujah Seed v1 having zero vehicles
+            vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+        } else vehicle.icon = null;
+
         vehicle_name.innerHTML = vehicle.type;
         vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
 
@@ -212,7 +215,11 @@ function view_vehicles(map)
         var vehicle_delay = document.createElement("small");
 
         vehicle_amount.innerHTML = vehicle.count;
-        vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+        
+        if (vehicle.icon) { // this is to handle Fallujah Seed v1 having zero vehicles
+            vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
+        } else vehicle.icon = null;
+
         vehicle_name.innerHTML = vehicle.type;
         vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
 
