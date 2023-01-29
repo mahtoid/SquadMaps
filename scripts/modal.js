@@ -46,6 +46,8 @@ function view_vehicles(map)
             team1 = "MEA"; break;
         case "Australian Defence Force":
             team1 = "AUS"; break;
+        case "People's Liberation Army":
+            team1 = "PLA"; break;
         default:
             team1 = "---"; break;
     }
@@ -69,6 +71,8 @@ function view_vehicles(map)
             team2 = "MEA"; break;
         case "Australian Defence Force":
             team2 = "AUS"; break;
+        case "People's Liberation Army":
+            team2 = "PLA"; break;
         default:
             team2 = "---"; break;
     }
@@ -133,8 +137,9 @@ function view_vehicles(map)
         case "Australian Defence Force":
             document.getElementById("modal_team_1_name").innerHTML = "AUS";
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_AUS.png"; break;
-
-
+        case "People's Liberation Army":
+            document.getElementById("modal_team_1_name").innerHTML = "PLA";
+            document.getElementById("modal_team_1_flag").src = "img/icons/flag_PLA.png"; break;
         default:
             console.error("Could not read team name: " + map.team1.faction);
             document.getElementById("modal_team_1_name").innerHTML = "---";
@@ -171,7 +176,9 @@ function view_vehicles(map)
         case "Australian Defence Force":
             document.getElementById("modal_team_2_name").innerHTML = "AUS";
             document.getElementById("modal_team_2_flag").src = "img/icons/flag_AUS.png"; break;
-
+        case "People's Liberation Army":
+            document.getElementById("modal_team_2_name").innerHTML = "PLA";
+            document.getElementById("modal_team_2_flag").src = "img/icons/flag_PLA.png"; break;
         default:
             console.error("Could not read team name: " + map.team2.faction);
             document.getElementById("modal_team_2_name").innerHTML = "---";

@@ -228,8 +228,13 @@ section div h3 {
 }
 
 .modal_squadlanes_link {
-    margin-top: 14px;
-    font: normal normal 300 1.5em "Roboto Condensed", sans-serif;
+    margin-top: 20px;
+    text-decoration: none;
+    font: normal normal 300 1em "Roboto Condensed", sans-serif;
+}
+
+.modal_squadlanes_name {
+    text-decoration: underline;
 }
 
 .modal_top_center {

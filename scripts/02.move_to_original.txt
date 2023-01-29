@@ -1,4 +1,0 @@
-This is still a manual step.
-It will be automated in the future.
-
-Move all screenshots from C:\Program Files (x86)\Steam\userdata\256876520\760\remote\393380\screenshots to SquadMaps\img\maps\original

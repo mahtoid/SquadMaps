@@ -1,7 +1,0 @@
-This is still a manual step.
-It will be automated in the future.
-
-Resize the images from original to thumbnails
-Done using FSResizer
-
-400x400

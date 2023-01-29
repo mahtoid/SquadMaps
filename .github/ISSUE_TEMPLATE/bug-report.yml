@@ -1,0 +1,29 @@
+name: Bug Report
+description: Found a bug? Report it here.
+labels: [bug]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      **Guidelines:**
+
+      - Make sure this is not a duplicate issue by [checking here](https://github.com/mahtoid/SquadMaps/issues?q=is%3Aissue).
+      - Include one bug per issue, please create multiple issues for each individual bug you find.
+      - Please provide an appropriate title related to your issue, for example: "Incorrect Layer details for 'Narva RAAS v1'".
+      - Please be descriptive and provide as much detail as possible, it'll save a lot of time for the both of us in trying to reproduce the issue.
+
+- type: textarea
+  attributes:
+    label: Bug Description
+    description: Clear and thorough description of the bug.
+    placeholder: When I was doing X, then Y happened instead of Z.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Additional Information
+    description: If necessary, upload a screenshot of the bug here - as well as any additional information.
+  validations:
+    required: false

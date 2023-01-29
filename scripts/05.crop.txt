@@ -1,7 +1,0 @@
-This is still a manual step.
-It will be automated in the future.
-
-Crop images in original_named using FSResizer and place the newly created images inside full_size
-Done using FSResizer
-1502,204
-1916x1916

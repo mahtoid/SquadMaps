@@ -1,6 +1,0 @@
-This is still a manual step.
-It will be automated in the future.
-
-Rename all screenshots from the timestamp name to a simple 3 digit number.
-Place the new images inside original_numbered
-This is done using FSResizer
