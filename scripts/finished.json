@@ -62579,8 +62579,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v1",
-      "rawName": "Kohat_RAAS_v1",
-      "levelName": "Kohat_RAAS_v1",
+      "rawName": "Kohat_RAAS_v01",
+      "levelName": "Kohat_RAAS_v01",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -63553,8 +63553,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v2",
-      "rawName": "Kohat_RAAS_v2",
-      "levelName": "Kohat_RAAS_v2",
+      "rawName": "Kohat_RAAS_v02",
+      "levelName": "Kohat_RAAS_v02",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -64049,8 +64049,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v3",
-      "rawName": "Kohat_RAAS_v3",
-      "levelName": "Kohat_RAAS_v3",
+      "rawName": "Kohat_RAAS_v03",
+      "levelName": "Kohat_RAAS_v03",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -64533,8 +64533,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v4",
-      "rawName": "Kohat_RAAS_v4",
-      "levelName": "Kohat_RAAS_v4",
+      "rawName": "Kohat_RAAS_v04",
+      "levelName": "Kohat_RAAS_v04",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_Early_Morning",
       "lighting": "Early Morning",
@@ -65011,8 +65011,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v5",
-      "rawName": "Kohat_RAAS_v5",
-      "levelName": "Kohat_RAAS_v5",
+      "rawName": "Kohat_RAAS_v05",
+      "levelName": "Kohat_RAAS_v05",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -65489,8 +65489,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v6",
-      "rawName": "Kohat_RAAS_v6",
-      "levelName": "Kohat_RAAS_v6",
+      "rawName": "Kohat_RAAS_v06",
+      "levelName": "Kohat_RAAS_v06",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -65936,8 +65936,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v7",
-      "rawName": "Kohat_RAAS_v7",
-      "levelName": "Kohat_RAAS_v7",
+      "rawName": "Kohat_RAAS_v07",
+      "levelName": "Kohat_RAAS_v07",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -66419,8 +66419,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v8",
-      "rawName": "Kohat_RAAS_v8",
-      "levelName": "Kohat_RAAS_v8",
+      "rawName": "Kohat_RAAS_v08",
+      "levelName": "Kohat_RAAS_v08",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -66897,8 +66897,8 @@ var finished = {
     },
     {
       "Name": "Kohat Toi RAAS v9",
-      "rawName": "Kohat_RAAS_v9",
-      "levelName": "Kohat_RAAS_v9",
+      "rawName": "Kohat_RAAS_v09",
+      "levelName": "Kohat_RAAS_v09",
       "minimapTexture": "kohat_minimap",
       "lightingLevel": "LL_Kohat_MidDay",
       "lighting": "Sunny Mid Day",
@@ -91001,6 +91001,226 @@ var finished = {
       "mapName": "Mutaha",
       "gamemode": "RAAS",
       "layerVersion": "v7",
+      "mapSize": "2.8x2.8 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Mutaha Seed v1",
+      "rawName": "Mutaha_Seed_v1",
+      "levelName": "Mutaha_Seed_v1",
+      "minimapTexture": "Mutaha_Minimap",
+      "lightingLevel": "LL_Mutaha_Sunrise",
+      "lighting": "Sunrise",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-95528.15625",
+          "location_y": "164177.921875",
+          "location_z": "417.546875"
+        },
+        {
+          "point": "1",
+          "location_x": "184941.21875",
+          "location_y": "164092.453125",
+          "location_z": "417.546875"
+        },
+        {
+          "point": "2",
+          "location_x": "184951.5",
+          "location_y": "-116800.421875",
+          "location_z": "417.546875"
+        },
+        {
+          "point": "3",
+          "location_x": "-95484.59375",
+          "location_y": "-116800.421875",
+          "location_z": "417.546875"
+        },
+        {
+          "point": "4",
+          "location_x": "-95528.15625",
+          "location_y": "164177.921875",
+          "location_z": "417.546875"
+        }
+      ],
+      "team1": {
+        "faction": "United States Marine Corps",
+        "teamSetupName": "USMC 3rd Battalion, 2nd Marines",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "false",
+        "vehicles": [
+	    {
+            "type": "M939 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M939 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M939 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+	    {
+            "type": "M939 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M939 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M939 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_US_Util_Desert_Logi_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M1151 M2 Open Doors",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_M1151_Light_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M1151 M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M1151_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian battalion tactical group",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "false",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+	    {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+	    {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+	    {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "type": "AAS Graph",
+      "Flag": [
+        "01-Baraka",
+        "02-Checkpoint",
+        "03-School"
+      ],
+      "capturePoints": "3",
+      "mapName": "Mutaha",
+      "gamemode": "Seed",
+      "layerVersion": "v1",
       "mapSize": "2.8x2.8 km",
       "mapSizeType": "Playable Area"
     },
