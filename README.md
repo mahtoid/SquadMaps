@@ -1,7 +1,7 @@
 <div align="right">
     <strong><a href="https://github.com/mahtoid/SquadMaps/issues/34">The Future of SquadMaps</a></strong>
 </div>
-
+<br>
 <div align="center">
 
 [![Forks][forks-shield]][forks-url]
