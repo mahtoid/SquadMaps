@@ -15,7 +15,7 @@
   <p>
     View map and layer information for Squad!
     <br />
-    <a href="https://discord.gg/2uhHBQDwcc">Join Discord</a>
+    <a href="https://discord.mahto.id/">Join Discord</a>
     ·
     <a href="https://github.com/mahtoid/SquadMaps/issues/new?assignees=&labels=bug&template=bug-report.yml">Report Bug</a>
     ·
