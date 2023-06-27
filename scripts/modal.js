@@ -26,7 +26,6 @@ function view_vehicles(map)
 
     document.getElementById("layer_name").value = map.rawName;
     var team1, team2;
-    console.log(map.team1.faction, map.team2.faction)
     switch (map.team1.faction)
     {
         case "Canadian Armed Forces":
