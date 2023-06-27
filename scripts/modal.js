@@ -26,6 +26,7 @@ function view_vehicles(map)
 
     document.getElementById("layer_name").value = map.rawName;
     var team1, team2;
+    console.log(map.team1.faction, map.team2.faction)
     switch (map.team1.faction)
     {
         case "Canadian Armed Forces":
@@ -48,6 +49,10 @@ function view_vehicles(map)
             team1 = "AUS"; break;
         case "People's Liberation Army":
             team1 = "PLA"; break;
+        case "PLA Navy Marine Corps":
+            team1 = "PLANMC"; break;
+        case "Russian Airborne Forces":
+            team1 = "VDV"; break;
         default:
             team1 = "---"; break;
     }
@@ -73,6 +78,10 @@ function view_vehicles(map)
             team2 = "AUS"; break;
         case "People's Liberation Army":
             team2 = "PLA"; break;
+        case "PLA Navy Marine Corps":
+            team2 = "PLANMC"; break;
+        case "Russian Airborne Forces":
+            team2 = "VDV"; break;
         default:
             team2 = "---"; break;
     }
@@ -140,6 +149,12 @@ function view_vehicles(map)
         case "People's Liberation Army":
             document.getElementById("modal_team_1_name").innerHTML = "PLA";
             document.getElementById("modal_team_1_flag").src = "img/icons/flag_PLA.png"; break;
+        case "PLA Navy Marine Corps":
+            document.getElementById("modal_team_1_name").innerHTML = "PLANMC";
+            document.getElementById("modal_team_1_flag").src = "img/icons/flag_PLANMC.png"; break;
+        case "Russian Airborne Forces":
+            document.getElementById("modal_team_1_name").innerHTML = "VDV";
+            document.getElementById("modal_team_1_flag").src = "img/icons/flag_VDV.png"; break;
         default:
             console.error("Could not read team name: " + map.team1.faction);
             document.getElementById("modal_team_1_name").innerHTML = "---";
@@ -179,6 +194,12 @@ function view_vehicles(map)
         case "People's Liberation Army":
             document.getElementById("modal_team_2_name").innerHTML = "PLA";
             document.getElementById("modal_team_2_flag").src = "img/icons/flag_PLA.png"; break;
+        case "PLA Navy Marine Corps":
+            document.getElementById("modal_team_2_name").innerHTML = "PLANMC";
+            document.getElementById("modal_team_2_flag").src = "img/icons/flag_PLANMC.png"; break;
+        case "Russian Airborne Forces":
+            document.getElementById("modal_team_2_name").innerHTML = "VDV";
+            document.getElementById("modal_team_2_flag").src = "img/icons/flag_VDV.png"; break;
         default:
             console.error("Could not read team name: " + map.team2.faction);
             document.getElementById("modal_team_2_name").innerHTML = "---";
