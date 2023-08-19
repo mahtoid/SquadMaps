@@ -3,7 +3,7 @@ var body = document.getElementsByTagName("BODY")[0];
 var team_1_ul = document.getElementById("modal_team_1_vehicles");
 var team_2_ul = document.getElementById("modal_team_2_vehicles");
 
-function view_vehicles(map)
+function view_vehicles(language, map)
 {
     // Get the map object from the JSON
     {
@@ -108,13 +108,13 @@ function view_vehicles(map)
         document.getElementById("modal_squadlanes_link").style.display = "none";
     }
     document.getElementById("modal_layer_name").innerHTML = map.Name;
-    document.getElementById("modal_team_1_tickets").innerHTML = map.team1.tickets + " tickets";
-    document.getElementById("modal_team_2_tickets").innerHTML = map.team2.tickets + " tickets";
+    document.getElementById("modal_team_1_tickets").innerHTML = map.team1.tickets + " " + translations["tickets"][language];
+    document.getElementById("modal_team_2_tickets").innerHTML = map.team2.tickets + " " + translations["tickets"][language];
     document.getElementById("map").style.backgroundImage = "url(img/maps/full_size/" + map.rawName + ".jpg)";
     document.getElementById("modal_map_url").href = "img/maps/full_size/" + map.rawName + ".jpg";
-    map.team1.commander == "true" ? document.getElementById("modal_value_commander").innerHTML = "Yes" : document.getElementById("modal_value_commander").innerHTML = "No";
+    map.team1.commander == "true" ? document.getElementById("modal_value_commander").innerHTML = translations["Yes"][language] : document.getElementById("modal_value_commander").innerHTML = translations["No"][language];
     document.getElementById("modal_value_number_of_flags").innerHTML = map.capturePoints;
-    document.getElementById("modal_value_weather").innerHTML = map.lighting;
+    document.getElementById("modal_value_weather").innerHTML = translations[map.lighting][language] ?? map.lighting;
 
     switch (map.team1.faction)
     {
@@ -221,8 +221,8 @@ function view_vehicles(map)
                 vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
             } else vehicle.icon = null;
 
-            vehicle_name.innerHTML = vehicle.type;
-            vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
+            vehicle_name.innerHTML = translations[vehicle.type][language];
+            vehicle.delay != 0 ? vehicle_delay.innerHTML = translations["Time Delay"][language].replace("{{time}}", vehicle.delay) : vehicle_delay.innerHTML = "";
 
             li.appendChild(vehicle_amount);
             li.appendChild(vehicle_img);
@@ -248,8 +248,8 @@ function view_vehicles(map)
                 vehicle_img.src = "./img/icons/" + vehicle.icon + ".png";
             } else vehicle.icon = null;
 
-            vehicle_name.innerHTML = vehicle.type;
-            vehicle.delay != 0 ? vehicle_delay.innerHTML = vehicle.delay + " mins" : vehicle_delay.innerHTML = "";
+            vehicle_name.innerHTML = translations[vehicle.type][language];
+            vehicle.delay != 0 ? vehicle_delay.innerHTML = translations["Time Delay"][language].replace("{{time}}", vehicle.delay) : vehicle_delay.innerHTML = "";
 
             li.appendChild(vehicle_amount);
             li.appendChild(vehicle_img);

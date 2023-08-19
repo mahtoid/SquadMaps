@@ -1,0 +1,890 @@
+var translations = {
+    "Anvil": {
+        "en": "Anvil",
+        "zh": "铁砧行动"
+    },
+    "Al Basrah": {
+        "en": "Al Basrah",
+        "zh": "巴士拉"
+    },
+    "Belaya Pass": {
+        "en": "Belaya Pass",
+        "zh": "贝拉亚关隘"
+    },
+    "Black Coast": {
+        "en": "Black Coast",
+        "zh": "黑色海岸"
+    },
+    "Chora": {
+        "en": "Chora",
+        "zh": "乔拉"
+    },
+    "Fallujah": {
+        "en": "Fallujah",
+        "zh": "费卢杰"
+    },
+    "Fool's Road": {
+        "en": "Fool's Road",
+        "zh": "愚人之路"
+    },
+    "Goose Bay": {
+        "en": "Goose Bay",
+        "zh": "鹅湾"
+    },
+    "Gorodok": {
+        "en": "Gorodok",
+        "zh": "格洛多克"
+    },
+    "Harju": {
+        "en": "Harju",
+        "zh": "哈留"
+    },
+    "Kamdesh Highlands": {
+        "en": "Kamdesh Highlands",
+        "zh": "卡姆德什高地"
+    },
+    "Kohat Toi": {
+        "en": "Kohat Toi",
+        "zh": "科哈特"
+    },
+    "Kokan": {
+        "en": "Kokan",
+        "zh": "寇坎"
+    },
+    "Lashkar Valley": {
+        "en": "Lashkar Valley",
+        "zh": "拉什喀"
+    },
+    "Logar Valley": {
+        "en": "Logar Valley",
+        "zh": "洛加尔山谷"
+    },
+    "Manicouagan": {
+        "en": "Manicouagan",
+        "zh": "曼尼古根"
+    },
+    "Mestia": {
+        "en": "Mestia",
+        "zh": "梅斯提亚"
+    },
+    "Mutaha": {
+        "en": "Mutaha",
+        "zh": "穆塔哈"
+    },
+    "Narva": {
+        "en": "Narva",
+        "zh": "纳尔瓦"
+    },
+    "Skorpo": {
+        "en": "Skorpo",
+        "zh": "斯科普"
+    },
+    "Sumari Bala": {
+        "en": "Sumari Bala",
+        "zh": "苏玛瑞"
+    },
+    "Tallil Outskirts": {
+        "en": "Tallil Outskirts",
+        "zh": "塔利尔郊区"
+    },
+    "Yehorivka": {
+        "en": "Yehorivka",
+        "zh": "叶霍里夫卡"
+    },
+    "Copy layer name": {
+        "en": "Copy layer name",
+        "zh": "复制图层名称"
+    },
+    "Copy layer info": {
+        "en": "Copy layer info",
+        "zh": "复制图层信息"
+    },
+    "Squadlanes": {
+        "en": "Currently in-game? Work out the next cap using SquadLanes",
+        "zh": "正在游戏中？来使用 SquadLanes 预测下一个点的位置！"
+    },
+    "Commander": {
+        "en": "Commander:",
+        "zh": "指挥官"
+    },
+    "Weather": {
+        "en": "Weather:",
+        "zh": "天气"
+    },
+    "Flags": {
+        "en": "# of flags:",
+        "zh": "白旗点数量"
+    },
+    "Squad Maps": {
+        "en": "Squad Maps",
+        "zh": "Squad地图站"
+    },
+    "SQUAD MAPS": {
+        "en": "SQUAD MAPS",
+        "zh": "SQUAD地图信息站"
+    },
+    "credits": {
+        "en": "Created by {{author1}}, maintained by {{author2}}.",
+        "zh": "由{{author1}}创建，由{{author2}}维护。"
+    },
+    "Yes": {
+        "en": "Yes",
+        "zh": "是的",
+    },
+    "No": {
+        "en": "No",
+        "zh": "不是",
+    },
+    "tickets": {
+        "en": "tickets",
+        "zh": "基础票"
+    },
+        "Sunny Mid Day": {
+        "en": "Sunny Mid Day",
+        "zh": "艳阳高照的正午"
+    },
+    "Sunrise": {
+        "en": "Sunrise",
+        "zh": "日出"
+    },
+    "Night": {
+        "en": "Night",
+        "zh": "夜晚"
+    },
+    "Cloudy Mid Day": {
+        "en": "Cloudy Mid Day",
+        "zh": "多云的正午"
+    },
+    "Overcast": {
+        "en": "Overcast",
+        "zh": "阴天"
+    },
+    "Early Dawn (Dark)": {
+        "en": "Early Dawn (Dark)",
+        "zh": "拂晓时分（黑暗）"
+    },
+    "Partial Clouds Mid Day": {
+        "en": "Partial Clouds Mid Day",
+        "zh": "部分多云的正午"
+    },
+    "Dusty Mid Day": {
+        "en": "Dusty Mid Day",
+        "zh": "尘土飞扬的中午" // review translation
+    },
+    "Clear Night": {
+        "en": "Clear Night",
+        "zh": "晴朗的夜晚"
+    },
+    "Sand Storm Mid Day": {
+        "en": "Sand Storm Mid Day",
+        "zh": "沙尘暴的中午" // review translation
+    },
+    "Sunny Afternoon": {
+        "en": "Sunny Afternoon",
+        "zh": "阳光明媚的下午"
+    },
+    "Sunset": {
+        "en": "Sunset",
+        "zh": "日落"
+    },
+    "Stormy": {
+        "en": "Stormy",
+        "zh": "狂风大作"
+    },
+    "Early Morning": {
+        "en": "Early Morning",
+        "zh": "清晨"
+    },
+    "Mid Day": {
+        "en": "Mid Day",
+        "zh": "中午"
+    },
+    "Rain Storm": {
+        "en": "Rain Storm",
+        "zh": "暴雨"
+    },
+    "Evening": {
+        "en": "Evening",
+        "zh": "傍晚"
+    },
+    "Dusk": {
+        "en": "Dusk",
+        "zh": "黄昏"
+    },
+    "Foggy": {
+        "en": "Foggy",
+        "zh": "雾天"
+    },
+    "Storm": {
+        "en": "Storm",
+        "zh": "狂风暴雨"
+    },
+    "Morning Sunrise": {
+        "en": "Morning Sunrise",
+        "zh": "早晨与日出"
+    },
+    "Time Delay": {
+        "en": "{{time}} mins",
+        "zh": "开局{{time}}分钟时刷新"
+    },
+    "HX60 Transport": {
+        "en": "HX60 Transport",
+        "zh": "HX60运兵车"
+    },
+    "HX60 Logistics": {
+        "en": "HX60 Logistics",
+        "zh": "HX60补给车"
+    },
+    "PMV Mag58 x3": {
+        "en": "PMV Mag58 x3",
+        "zh": "PMV Mag58 x3"
+    },
+    "PMV RWS M2": {
+        "en": "PMV RWS M2",
+        "zh": "PMV RWS M2"
+    },
+    "ASLAV": {
+        "en": "ASLAV",
+        "zh": "ASLAV"
+    },
+    "M1A1": {
+        "en": "M1A1",
+        "zh": "M1A1"
+    },
+    "UH-60M": {
+        "en": "UH-60M",
+        "zh": "UH-60M"
+    },
+    "CTM131 Transport QJZ89": {
+        "en": "CTM131 Transport QJZ89",
+        "zh": "CTM131运兵卡 QJZ89重机枪"
+    },
+    "CTM131 Logistics": {
+        "en": "CTM131 Logistics",
+        "zh": "CTM131补给车"
+    },
+    "CSK131 QJZ89": {
+        "en": "CSK131 QJZ89",
+        "zh": "CSK131 QJZ89"
+    },
+    "ZSD05": {
+        "en": "ZSD05",
+        "zh": "ZSD05 开放式炮塔 装甲运兵车"
+    },
+    "ZBD05": {
+        "en": "ZBD05",
+        "zh": "ZBD05 两栖突击步战车"
+    },
+    "ZTZ99A": {
+        "en": "ZTZ99A",
+        "zh": "ZTZ99A"
+    },
+    "Z-8G": {
+        "en": "Z-8G",
+        "zh": "Z-8G"
+    },
+    "PMV Mag58": {
+        "en": "PMV Mag58",
+        "zh": "PMV Mag58"
+    },
+    "KamAZ 5350 Transport": {
+        "en": "KamAZ 5350 Transport",
+        "zh": "KamAZ 5350运兵车"
+    },
+    "KamAZ 5350 Logistics": {
+        "en": "KamAZ 5350 Logistics",
+        "zh": "KamAZ 5350补给车"
+    },
+    "Tigr-M Kord": {
+        "en": "Tigr-M Kord",
+        "zh": "Tigr-M Kord重机枪"
+    },
+    "Tigr-M RWS Kord": {
+        "en": "Tigr-M RWS Kord",
+        "zh": "Tigr-M 遥控武器站 Kord重机枪"
+    },
+    "BTR-82A": {
+        "en": "BTR-82A",
+        "zh": "BTR-82A"
+    },
+    "Minsk 400": {
+        "en": "Minsk 400",
+        "zh": "明斯克400"
+    },
+    "Transport Pickup Truck": {
+        "en": "Transport Pickup Truck",
+        "zh": "运输皮卡车"
+    },
+    "Logistics Pickup Truck": {
+        "en": "Logistics Pickup Truck",
+        "zh": "补给皮卡车"
+    },
+    "Ural-375D Logistics": {
+        "en": "Ural-375D Logistics",
+        "zh": "Ural-375D补给车"
+    },
+    "Technical DShK Shielded": {
+        "en": "Technical DShK Shielded",
+        "zh": "装甲改装皮卡 DShK（带盾）"
+    },
+    "Shitty Technical DShK": {
+        "en": "Shitty Technical DShK",
+        "zh": "破旧改装皮卡DShK"
+    },
+    "MT-LB ZU-23-2": {
+        "en": "MT-LB ZU-23-2",
+        "zh": "MT-LB ZU-23-2"
+    },
+    "Armored Technical SPG-9": {
+        "en": "Armored Technical SPG-9",
+        "zh": "装甲改装皮卡SPG-9"
+    },
+    "Technical Mortar": {
+        "en": "Technical Mortar",
+        "zh": "迫击炮改装皮卡"
+    },
+    "BMP-2": {
+        "en": "BMP-2",
+        "zh": "BMP-2"
+    },
+    "T-72B3": {
+        "en": "T-72B3",
+        "zh": "T-72B3"
+    },
+    "Mi-8": {
+        "en": "Mi-8",
+        "zh": "Mi-8"
+    },
+    "Ural-4320 Transport": {
+        "en": "Ural-4320 Transport",
+        "zh": "Ural-4320运兵车"
+    },
+    "Ural-4320 Logistics": {
+        "en": "Ural-4320 Logistics",
+        "zh": "Ural-4320补给车"
+    },
+    "Simir MG3": {
+        "en": "Simir MG3",
+        "zh": "Simir MG3轻机枪"
+    },
+    "Simir Kord": {
+        "en": "Simir Kord",
+        "zh": "Simir Kord重机枪"
+    },
+    "MT-LBM 6MA S8": {
+        "en": "MT-LBM 6MA S8",
+        "zh": "MT-LBM 6MA S8"
+    },
+    "T-72S": {
+        "en": "T-72S",
+        "zh": "T-72S"
+    },
+    "Mi-17": {
+        "en": "Mi-17",
+        "zh": "Mi-17"
+    },
+    "MSVS Transport": {
+        "en": "MSVS Transport",
+        "zh": "MSVS运兵车"
+    },
+    "MSVS Logistics": {
+        "en": "MSVS Logistics",
+        "zh": "MSVS补给车"
+    },
+    "M113A3 C6": {
+        "en": "M113A3 C6",
+        "zh": "M113A3 C6轻机枪"
+    },
+    "M113A3 M2": {
+        "en": "M113A3 M2",
+        "zh": "M113A3 M2重机枪"
+    },
+    "M113A3 TLAV": {
+        "en": "M113A3 TLAV",
+        "zh": "M113A3 履带式轻型装甲车辆(TLAV)"
+    },
+    "Coyote": {
+        "en": "Coyote",
+        "zh": "土狼侦察车(郊狼)"
+    },
+    "Leopard 2A6M CAN": {
+        "en": "Leopard 2A6M CAN",
+        "zh": "Leopard 2A6M CAN"
+    },
+    "CH-146": {
+        "en": "CH-146",
+        "zh": "CH-146"
+    },
+    "BMP-1": {
+        "en": "BMP-1",
+        "zh": "BMP-1"
+    },
+    "MRH-90": {
+        "en": "MRH-90",
+        "zh": "MRH-90"
+    },
+    "BTR-DG Logistics": {
+        "en": "BTR-DG Logistics",
+        "zh": "BTR-DG两栖补给车"
+    },
+    "BTR-D Kord APC": {
+        "en": "BTR-D Kord APC",
+        "zh": "BTR-D Kord 装甲运兵车"
+    },
+    "BTR-ZD Anti-Air": {
+        "en": "BTR-ZD Anti-Air",
+        "zh": "BTR-ZD防空车"
+    },
+    "BTR-MDM PKT RWS APC": {
+        "en": "BTR-MDM PKT RWS APC",
+        "zh": "BTR-MDM 装甲运兵车 PKT远程武器站"
+    },
+    "BMD-1M IFV": {
+        "en": "BMD-1M IFV",
+        "zh": "BMD-1M步兵战车"
+    },
+    "BMD-4M IFV": {
+        "en": "BMD-4M IFV",
+        "zh": "BMD-4M步兵战车"
+    },
+    "M939 Transport": {
+        "en": "M939 Transport",
+        "zh": "M939运兵车"
+    },
+    "M939 Logistics": {
+        "en": "M939 Logistics",
+        "zh": "M939补给车"
+    },
+    "M-ATV M240": {
+        "en": "M-ATV M240",
+        "zh": "M-ATV M240通用机枪"
+    },
+    "M-ATV M2": {
+        "en": "M-ATV M2",
+        "zh": "M-ATV M2重机枪"
+    },
+    "M1126 CROWS M2": {
+        "en": "M1126 CROWS M2",
+        "zh": "M1126 遥控武器站 M2重机枪"
+    },
+    "M-ATV TOW": {
+        "en": "M-ATV TOW",
+        "zh": "M-ATV 陶式反坦克导弹"
+    },
+    "M2A3": {
+        "en": "M2A3",
+        "zh": "M2A3(布莱德利步兵战车)"
+    },
+    "Simir Logi": {
+        "en": "Simir Logi",
+        "zh": "Simir 补给车"
+    },
+    "Simir Kornet": {
+        "en": "Simir Kornet",
+        "zh": "Simir 短号反坦克导弹"
+    },
+    "BRDM-2 S8": {
+        "en": "BRDM-2 S8",
+        "zh": "BRDM-2 S8"
+    },
+    "T-62": {
+        "en": "T-62",
+        "zh": "T-62"
+    },
+    "Technical UB-32": {
+        "en": "Technical UB-32",
+        "zh": "改装皮卡车 UB-32火箭巢"
+    },
+    "Technical ZU-23-2": {
+        "en": "Technical ZU-23-2",
+        "zh": "改装皮卡车 ZU-23-2"
+    },
+    "Ural-375D ZU-23-2": {
+        "en": "Ural-375D ZU-23-2",
+        "zh": "Ural-375D ZU-23-2"
+    },
+    "Technical SPG-9": {
+        "en": "Technical SPG-9",
+        "zh": "改装皮卡车 SPG-9"
+    },
+    "LPPV": {
+        "en": "LPPV",
+        "zh": "LPPV"
+    },
+    "FV432": {
+        "en": "FV432",
+        "zh": "FV432"
+    },
+    "FV107": {
+        "en": "FV107",
+        "zh": "FV107"
+    },
+    "FV510 UA": {
+        "en": "FV510 UA",
+        "zh": "FV510 重甲"
+    },
+    "FV4034": {
+        "en": "FV4034",
+        "zh": "FV4034"
+    },
+    "SA330": {
+        "en": "SA330",
+        "zh": "SA330"
+    },
+    "Armored Technical DShK": {
+        "en": "Armored Technical DShK",
+        "zh": "装甲改装皮卡 DShK"
+    },
+    "Technical M2 HB": {
+        "en": "Technical M2 HB",
+        "zh": "改装皮卡车 M2 HB"
+    },
+    "Technical BMP-1": {
+        "en": "Technical BMP-1",
+        "zh": "改装皮卡车 BMP-1"
+    },
+    "LPPV RWS": {
+        "en": "LPPV RWS",
+        "zh": "LPPV 遥控武器站"
+    },
+    "FV432 RWS": {
+        "en": "FV432 RWS",
+        "zh": "FV432 遥控武器站"
+    },
+    "FV520 CTAS40": {
+        "en": "FV520 CTAS40",
+        "zh": "FV520 CTAS40"
+    },
+    "AAVC-7A1 Logistics": {
+        "en": "AAVC-7A1 Logistics",
+        "zh": "AAVC-7A1 两栖补给车"
+    },
+    "M1151 M2 Open Doors": {
+        "en": "M1151 M2 Open Doors",
+        "zh": "M1151 M2重机枪 敞篷式"
+    },
+    "M1151 M2": {
+        "en": "M1151 M2",
+        "zh": "M1151 M2重机枪"
+    },
+    "AAVP-7A1": {
+        "en": "AAVP-7A1",
+        "zh": "AAVP-7A1"
+    },
+    "LAV-25": {
+        "en": "LAV-25",
+        "zh": "LAV-25"
+    },
+    "UH-1Y": {
+        "en": "UH-1Y",
+        "zh": "UH-1Y"
+    },
+    "Ural-375D Transport": {
+        "en": "Ural-375D Transport",
+        "zh": "Ural-375D运兵车"
+    },
+    "BRDM-2": {
+        "en": "BRDM-2",
+        "zh": "BRDM-2"
+    },
+    "LAV 6": {
+        "en": "LAV 6",
+        "zh": "LAV 6"
+    },
+    "TAPV C6": {
+        "en": "TAPV C6",
+        "zh": "TAPV C6轻机枪"
+    },
+    "LUVW M2": {
+        "en": "LUVW M2",
+        "zh": "LUVW M2重机枪"
+    },
+    "MT-LB VMK": {
+        "en": "MT-LB VMK",
+        "zh": "MT-LB VMK"
+    },
+    "LUV-A1 Logistics": {
+        "en": "LUV-A1 Logistics",
+        "zh": "LUV-A1补给车"
+    },
+    "LUVW Logistics": {
+        "en": "LUVW Logistics",
+        "zh": "LUVW补给车"
+    },
+    "LUVW C6": {
+        "en": "LUVW C6",
+        "zh": "LUVW C6轻机枪"
+    },
+    "BTR-80": {
+        "en": "BTR-80",
+        "zh": "BTR-80"
+    },
+    "CSK131 QJC88 RWS": {
+        "en": "CSK131 QJC88 RWS",
+        "zh": "CSK131 QJC88远程武器站"
+    },
+    "ZSL10": {
+        "en": "ZSL10",
+        "zh": "ZSL10轮式装甲输送车"
+    },
+    "ZBL08": {
+        "en": "ZBL08",
+        "zh": "ZBL08轮式步战车"
+    },
+    "ZBD04A": {
+        "en": "ZBD04A",
+        "zh": "ZBD04A履带式步兵战车"
+    },
+    "RHIB Transport": {
+        "en": "RHIB Transport",
+        "zh": "运输型刚性充气艇"
+    },
+    "RHIB QJZ89": {
+        "en": "RHIB QJZ89",
+        "zh": "刚性充气艇 QJZ89重机枪"
+    },
+    "RHIB Logistics": {
+        "en": "RHIB Logistics",
+        "zh": "补给型刚性充气艇"
+    },
+    "Transport Modern Pickup": {
+        "en": "Transport Modern Pickup",
+        "zh": "现代运兵皮卡车"
+    },
+    "Logistics Modern Pickup": {
+        "en": "Logistics Modern Pickup",
+        "zh": "现代补给皮卡车"
+    },
+    "Armored Ural-375D Logistics": {
+        "en": "Armored Ural-375D Logistics",
+        "zh": "装甲Ural-375D补给车"
+    },
+    "Modern Technical DShK": {
+        "en": "Modern Technical DShK",
+        "zh": "现代改装皮卡车 DShK"
+    },
+    "Armored Modern Technical DShK": {
+        "en": "Armored Modern Technical DShK",
+        "zh": "装甲现代改装皮卡车 DShK"
+    },
+    "Armored Modern Technical M2 HB": {
+        "en": "Armored Modern Technical M2 HB",
+        "zh": "装甲现代改装皮卡车 M2 HB"
+    },
+    "Armored Modern Technical SPG-9": {
+        "en": "Armored Modern Technical SPG-9",
+        "zh": "装甲现代改装皮卡车 SPG-9"
+    },
+    "Armored Transport Modern Pickup": {
+        "en": "Armored Transport Modern Pickup",
+        "zh": "装甲现代运兵皮卡车"
+    },
+    "Armored Ural-375D Transport": {
+        "en": "Armored Ural-375D Transport",
+        "zh": "装甲Ural-375D运兵车"
+    },
+    "Modern Technical M2 HB": {
+        "en": "Modern Technical M2 HB",
+        "zh": "现代改装皮卡车 M2 HB"
+    },
+    "Technical DShK": {
+        "en": "Technical DShK",
+        "zh": "改装皮卡车 DShK"
+    },
+    "MT-LBM 6MA": {
+        "en": "MT-LBM 6MA",
+        "zh": "MT-LBM 6MA"
+    },
+    "Armored Logistics Modern Pickup": {
+        "en": "Armored Logistics Modern Pickup",
+        "zh": "装甲现代补给皮卡车"
+    },
+    "Modern Technical SPG-9": {
+        "en": "Modern Technical SPG-9",
+        "zh": "现代改装皮卡车 SPG-9"
+    },
+    "BM-21 Grad": {
+        "en": "BM-21 Grad",
+        "zh": "BM-21 冰雹"
+    },
+    "Modern Technical UB-32": {
+        "en": "Modern Technical UB-32",
+        "zh": "现代改装皮卡车 UB-32火箭巢"
+    },
+    "M1A2": {
+        "en": "M1A2",
+        "zh": "M1A2"
+    },
+    "FV510": {
+        "en": "FV510",
+        "zh": "FV510"
+    },
+    "Sprut-SDM1 MGS": {
+        "en": "Sprut-SDM1 MGS",
+        "zh": "章鱼SDM-1 机动火炮系统"
+    },
+    "CTM131 Transport QJY88": {
+        "en": "CTM131 Transport QJY88",
+        "zh": "CTM131运输车 QJY88轻机枪"
+    },
+    "ZSD05 APC": {
+        "en": "ZSD05 APC",
+        "zh": "ZSD05开放式炮塔 装甲运兵车"
+    },
+    "ZBL08 IFV": {
+        "en": "ZBL08 IFV",
+        "zh": "ZBL08轮式步战车"
+    },
+    "ZBD05 IFV": {
+        "en": "ZBD05 IFV",
+        "zh": "ZBD05两栖突击步战车"
+    },
+    "ZBD05 HJ73C IFV": {
+        "en": "ZBD05 HJ73C IFV",
+        "zh": "ZBD05两栖突击步战车 红箭-73反坦克导弹"
+    },
+    "ZTD05 MGS": {
+        "en": "ZTD05 MGS",
+        "zh": "ZLT05两栖突击炮"
+    },
+    "Z-8J": {
+        "en": "Z-8J",
+        "zh": "Z-8J"
+    },
+    "Modern Technical ZU-23-2": {
+        "en": "Modern Technical ZU-23-2",
+        "zh": "现代改装皮卡车 ZU-23-2"
+    },
+    "TAPV M2": {
+        "en": "TAPV M2",
+        "zh": "TAPV M2重机枪"
+    },
+    "MT-LBM 6MB": {
+        "en": "MT-LBM 6MB",
+        "zh": "MT-LBM 6MB"
+    },
+    "M1151 CROWS M2": {
+        "en": "M1151 CROWS M2",
+        "zh": "M1151 遥控武器站 M2重机枪"
+    },
+    "CSK131 QJY88": {
+        "en": "CSK131 QJY88",
+        "zh": "CSK131 QJY88轻机枪"
+    },
+    "M1126 CROWS M240": {
+        "en": "M1126 CROWS M240",
+        "zh": "M1126 遥控武器站 M240通用机枪"
+    },
+    "MT-LB PKT": {
+        "en": "MT-LB PKT",
+        "zh": "MT-LB PKT通用机枪"
+    },
+    "M-ATV CROWS M2": {
+        "en": "M-ATV CROWS M2",
+        "zh": "M-ATV 遥控武器站 M2重机枪"
+    },
+    "MATV M2": {
+        "en": "MATV M2",
+        "zh": "MATV M2重机枪"
+    },
+    "LAV III C6 RWS": {
+        "en": "LAV III C6 RWS",
+        "zh": "LAV III C6远程武器站"
+    },
+    "CSK131 HJ8": {
+        "en": "CSK131 HJ8",
+        "zh": "CSK131 红箭-8反坦克导弹"
+    },
+    "MT-LB Logistics": {
+        "en": "MT-LB Logistics",
+        "zh": "MT-LB补给车"
+    },
+    "ZSD05 Logistics": {
+        "en": "ZSD05 Logistics",
+        "zh": "ZSD05补给车"
+    },
+    "RHIB M240": {
+        "en": "RHIB M240",
+        "zh": "刚性充气艇 M240轻机枪"
+    },
+    "ZBL08 HJ73C": {
+        "en": "ZBL08 HJ73C",
+        "zh": "ZBL08轮式步战车 红箭-73反坦克导弹"
+    },
+    "ZTD05": {
+        "en": "ZTD05",
+        "zh": "ZLT05两栖突击炮"
+    },
+    "BTR-D Transport": {
+        "en": "BTR-D Transport",
+        "zh": "BTR-D运兵车"
+    },
+    "M-ATV CROWS M240": {
+        "en": "M-ATV CROWS M240",
+        "zh": "M-ATV 遥控武器站 M240通用机枪"
+    },
+    "LUVW Transport": {
+        "en": "LUVW Transport",
+        "zh": "LUVW运兵车"
+    },
+    "BMP-1 ZU-23-2": {
+        "en": "BMP-1 ZU-23-2",
+        "zh": "BMP-1 ZU-23-2"
+    },
+    "MATV TOW": {
+        "en": "MATV TOW",
+        "zh": "MATV 陶式反坦克导弹"
+    },
+    "CH-178": {
+        "en": "CH-178",
+        "zh": "CH-178"
+    },
+    "RHIB QJY88": {
+        "en": "RHIB QJY88",
+        "zh": "刚性充气艇 QJY88轻机枪"
+    },
+    "RHIB M2": {
+        "en": "RHIB M2",
+        "zh": "刚性充气艇 M2重机枪"
+    },
+    "RHIB PKP": {
+        "en": "RHIB PKP",
+        "zh": "刚性充气艇 PKP通用机枪"
+    },
+    "RHIB NSV": {
+        "en": "RHIB NSV",
+        "zh": "刚性充气艇 NSV重机枪"
+    },
+    "ZBL08 HJ73C IFV": {
+        "en": "ZBL08 HJ73C IFV",
+        "zh": "ZBL08轮式步战车 红箭-73反坦克导弹"
+    },
+    "LUV-A1 Transport": {
+        "en": "LUV-A1 Transport",
+        "zh": "LUV-A1运兵车"
+    },
+    "BRDM-2 Spandrel": {
+        "en": "BRDM-2 Spandrel",
+        "zh": "BRDM-2 拱肩反坦克导弹"
+    },
+    "ZSL10 APC": {
+        "en": "ZSL10 APC",
+        "zh": "ZSL10 轮式装甲输送车"
+    },
+    "MATV CROWS M2": {
+        "en": "MATV CROWS M2",
+        "zh": "MATV 遥控武器站 M2重机枪"
+    },
+    "RHIB PKM": {
+        "en": "RHIB PKM",
+        "zh": "刚性充气艇 PKM轻机枪"
+    },
+    "RHIB DShK": {
+        "en": "RHIB DShK",
+        "zh": "刚性充气艇 DShK重机枪"
+    },
+    "LAV III M2 RWS": {
+        "en": "LAV III M2 RWS",
+        "zh": "LAV III M2重机枪 远程武器站"
+    }
+}
