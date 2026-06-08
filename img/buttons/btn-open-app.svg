@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="32" viewBox="0 0 176 32">
+  <rect width="176" height="32" rx="4" fill="#0d0d0d"/>
+  <g transform="translate(10, 9) scale(0.583)" color="#ffffff"><path d="M9 4L3 7v13l6-3 6 3 6-3V4l-6 3-6-3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"/><path d="M9 4v13M15 7v13" stroke="currentColor" stroke-width="1.5"/></g>
+  <text x="31" y="21" font-family="'SF Mono','Fira Code','Roboto Mono',monospace" font-size="12" font-weight="500" fill="#ffffff" letter-spacing="0.2">Open SquadMaps</text>
+</svg>

@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Help translate
+    url: https://github.com/mahtoid/SquadMaps/blob/master/CONTRIBUTING.md#translations
+    about: Guidelines for contributing locale translations
   - name: Discord
     url: https://discord.mahto.id/
-    about: Find help within the Discord community
+    about: Chat with the SquadMaps community

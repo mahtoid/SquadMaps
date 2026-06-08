@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="32" viewBox="0 0 168 32">
+  <rect width="168" height="32" rx="4" fill="#0d0d0d"/>
+  <g transform="translate(10, 9) scale(0.583)" color="#ffffff"><path d="M9 21h6M12 3a6 6 0 0 1 4 10.5V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-3.5A6 6 0 0 1 12 3z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="none"/></g>
+  <text x="31" y="21" font-family="'SF Mono','Fira Code','Roboto Mono',monospace" font-size="12" font-weight="500" fill="#ffffff" letter-spacing="0.2">Request Feature</text>
+</svg>

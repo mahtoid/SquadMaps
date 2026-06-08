@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32">
+  <rect width="120" height="32" rx="4" fill="#0d0d0d"/>
+  <g transform="translate(10, 9) scale(0.583)" color="#ffffff"><path d="M4 4h16v4H4zM4 12h16v4H4zM4 20h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></g>
+  <text x="31" y="21" font-family="'SF Mono','Fira Code','Roboto Mono',monospace" font-size="12" font-weight="500" fill="#ffffff" letter-spacing="0.2">Releases</text>
+</svg>

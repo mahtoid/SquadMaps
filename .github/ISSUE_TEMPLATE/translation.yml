@@ -1,0 +1,63 @@
+name: Translation
+description: Help translate SquadMaps or discuss locale work.
+labels: [translation]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Guidelines**
+
+        - Read [CONTRIBUTING.md#translations](../CONTRIBUTING.md#translations) before starting.
+        - Prefer opening a pull request if you already have translations ready.
+        - Use this template to offer help, ask questions, or propose a new locale.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Target language
+      options:
+        - Deutsch (de)
+        - Français (fr)
+        - 中文 (zh-CN)
+        - Українська (ua)
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - Full locale maintenance
+        - Partial translation (specific sections)
+        - Review or improve existing translations
+        - Propose a new locale
+        - Question before starting
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Squad / translation background
+      description: e.g. native speaker, existing Squad wiki contributor, prior work on game localisations.
+    validations:
+      required: false
+
+  - type: input
+    id: pr-link
+    attributes:
+      label: Pull request link (if any)
+      placeholder: https://github.com/mahtoid/SquadMaps/pull/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What you plan to translate, terminology questions, or anything else we should know.
+    validations:
+      required: true

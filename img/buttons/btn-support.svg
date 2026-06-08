@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="32" viewBox="0 0 168 32">
+  <rect width="168" height="32" rx="4" fill="#0d0d0d"/>
+  <g transform="translate(10, 9) scale(0.583)" color="#ffffff"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M12 7v10M9.5 9.5C9.5 8.5 10.5 8 12 8s2.5.5 2.5 1.5S13 11 12 12s-2.5 1-2.5 2 1 2 2.5 2 2.5-.5 2.5-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></g>
+  <text x="31" y="21" font-family="'SF Mono','Fira Code','Roboto Mono',monospace" font-size="12" font-weight="500" fill="#ffffff" letter-spacing="0.2">Support Project</text>
+</svg>

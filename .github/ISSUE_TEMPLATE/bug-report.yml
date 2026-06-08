@@ -1,29 +1,80 @@
 name: Bug Report
-description: Found a bug? Report it here.
+description: Something wrong on squadmaps.com? Report it here.
 labels: [bug]
 
 body:
-- type: markdown
-  attributes:
-    value: |
-      **Guidelines:**
+  - type: markdown
+    attributes:
+      value: |
+        **Guidelines**
 
-      - Make sure this is not a duplicate issue by [checking here](https://github.com/mahtoid/SquadMaps/issues?q=is%3Aissue).
-      - Include one bug per issue, please create multiple issues for each individual bug you find.
-      - Please provide an appropriate title related to your issue, for example: "Incorrect Layer details for 'Narva RAAS v1'".
-      - Please be descriptive and provide as much detail as possible, it'll save a lot of time for the both of us in trying to reproduce the issue.
+        - Search [existing issues](https://github.com/mahtoid/SquadMaps/issues?q=is%3Aissue) first.
+        - One bug per issue.
+        - Include the URL and browser — most bugs on the live site need both to reproduce.
 
-- type: textarea
-  attributes:
-    label: Bug Description
-    description: Clear and thorough description of the bug.
-    placeholder: When I was doing X, then Y happened instead of Z.
-  validations:
-    required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Copy the full URL from your browser, including map/layer/server parameters if relevant.
+      placeholder: https://squadmaps.com/?map=Narva&layer=...
+    validations:
+      required: true
 
-- type: textarea
-  attributes:
-    label: Additional Information
-    description: If necessary, upload a screenshot of the bug here - as well as any additional information.
-  validations:
-    required: false
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language selected
+      options:
+        - English (en)
+        - Deutsch (de)
+        - Français (fr)
+        - 中文 (zh-CN)
+        - Українська (ua)
+        - Not sure / default
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 138, Chrome 136, Safari 18, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the bug appeared?
+      placeholder: |
+        1. Open Narva RAAS v1
+        2. Enable mortar calculator
+        3. Click ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      placeholder: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behaviour
+      placeholder: What happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional information
+      description: Screenshots, console errors, or anything else that helps.
+    validations:
+      required: false
