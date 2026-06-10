@@ -8,7 +8,7 @@ Complete rewrite on NextJS
 
 #### Fixed
 
-- Dialogs to propagate history to allow for browser navigation
+- Dialogs add history entries to support browser back/forward
 - Default stroke colour (for brush) not rendering as green
 - Heightmaps incorrectly requesting `.webp` instead of `.json`
 - Terrain / Topology basemaps not displaying on Seed and Skirmish layers
