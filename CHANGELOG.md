@@ -4,6 +4,30 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.0.1 (10/06/2026)
+
+#### Fixed
+
+- Dialogs to propagate history to allow for browser navigation
+- Default stroke colour (for brush) not rendering as green
+- Heightmaps incorrectly requesting `.webp` instead of `.json`
+- Terrain / Topology basemaps not displaying on Seed and Skirmish layers
+
+#### Changed
+
+- Capture Zones now appear at a closer zoom level
+- Right-click interactive context menu closes on map pan
+- Heatmap now stores `layerId` internally (no functionality change currently)
+- Disable mortar usage when brush tool is active
+
+#### Improved
+
+- 'Squad Servers' column sorting
+- 'Live Server' section within 'Change Map' now hidden on Mobile
+- Server panel closes on background click
+
+---
+
 ### 3.0.0 (08/06/2026)
 
 Complete rewrite of SquadMaps on NextJS - faster, more capable, and built to become your tactical companion in-game.
