@@ -1,6 +1,6 @@
 name: Feature Request
 description: Have an idea to improve SquadMaps? Request it here.
-labels: [enhancement]
+labels: ["Feature Request", "Status: Needs Triage"]
 
 body:
   - type: markdown

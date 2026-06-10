@@ -1,6 +1,6 @@
 name: Bug Report
 description: Something wrong on squadmaps.com? Report it here.
-labels: [bug]
+labels: ["Bug", "Status: Needs Triage"]
 
 body:
   - type: markdown

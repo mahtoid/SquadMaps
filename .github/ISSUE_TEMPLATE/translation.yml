@@ -1,6 +1,6 @@
 name: Translation
 description: Help translate SquadMaps or discuss locale work.
-labels: [translation]
+labels: ["Translation", "Status: Needs Triage"]
 
 body:
   - type: markdown
