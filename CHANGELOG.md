@@ -4,6 +4,19 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.0.2 (11/06/2026)
+
+#### Fixed
+
+- Dialogs add history entries to support browser back/forward
+- Proxy resolve for old links to redirect
+
+#### Changed
+
+- Layout on 'Change Map' and 'Layer Selection' for better readability
+
+---
+
 ### 3.0.1 (10/06/2026)
 
 #### Fixed
