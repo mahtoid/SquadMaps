@@ -4,6 +4,20 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.0.3 (13/06/2026)
+
+#### Fixed
+
+- Following a server from the server browser no longer immediately navigates back instead of loading the server
+
+#### Changed
+
+- Live server list sync interval: 30s → 5s (background sync on server)
+- Followed server refresh interval: 30s → 10s (while viewing `?server=`)
+- Line of Sight enabled/disabled state persists for the session
+
+---
+
 ### 3.0.2 (11/06/2026)
 
 #### Fixed
