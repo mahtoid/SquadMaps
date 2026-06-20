@@ -4,6 +4,26 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.1.0 (20/06/2026)
+
+#### Added
+
+- Construction Calculator
+- Custom Shortcuts (can customise from keyboard shortcuts screen)
+- Multi-Mortar Support (with ability to select and mix different mortar weapon types)
+
+#### Fixed
+
+- Mestia RAAS v1 and Sumari RAAS v1 lanes not displaying
+- Squad server sync not cleaning up previous servers correctly
+
+#### Improved
+
+- Added Al Basrah Heightmap for LOS
+- Minor styling improvements
+
+---
+
 ### 3.0.3 (13/06/2026)
 
 #### Fixed
