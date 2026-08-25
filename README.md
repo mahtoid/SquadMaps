@@ -92,9 +92,9 @@ SquadMaps is used by players worldwide. Translations are community-maintained - 
 | Supported Languages | Locale | Notes |
 |----------|--------|----------|
 | 🇬🇧 English | `en` | Reference file |
-| 🇩🇪 Deutsch | `de` | in active progress |
-| 🇫🇷 Français | `fr` | in active progress |
-| 🇷🇺 Русский | `ru` | in active progress |
+| 🇩🇪 Deutsch | `de` | help wanted |
+| 🇫🇷 Français | `fr` | help wanted |
+| 🇷🇺 Русский | `ru` | help wanted |
 | 🇨🇳 中文 | `zh-CN` | ✅ |
 | 🇺🇦 Українська | `ua` | ✅ |
 
