@@ -4,6 +4,18 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.1.1 (25/08/2026)
+
+#### Added
+
+- Respawn/Death Cam
+- Team Uniform on Team Menus
+- Added in Chornivsk and Hrodna Border (modded maps)
+
+Plenty of modded content to come, this was a little preemptive given hosting provider change.
+
+---
+
 ### 3.1.0 (20/06/2026)
 
 #### Added
