@@ -4,6 +4,14 @@ Complete rewrite on NextJS
 
 ---
 
+### 3.1.2 (15/09/2026)
+
+#### Added
+
+- Solve map data issue for Manicouagan RAAS v2
+
+---
+
 ### 3.1.1 (25/08/2026)
 
 #### Added
